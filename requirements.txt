@@ -1,0 +1,11 @@
+# Core requirements for Day 28 (API calls)
+# requests>=2.31.0
+
+# Testing - Day 29
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: code quality tools (highly recommended)
+# ruff>=0.1.0          # Fast Python linter
+# black>=23.0.0        # Code formatter
+# mypy>=1.5.0          # Static type checker

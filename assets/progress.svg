@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60" width="800" height="60">
+  <rect width="800" height="60" fill="#0d1117" rx="8"/>
+  <text x="12" y="22" font-family="system-ui,sans-serif" font-size="11" fill="#8b949e" letter-spacing="1">CURRICULUM PROGRESS</text>
+  <rect x="12" y="32" width="776" height="14" fill="#21262d" rx="7"/>
+  <rect x="12" y="32" width="776" height="14" fill="url(#prog)" rx="7"/>
+  <defs>
+    <linearGradient id="prog" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3776AB"/>
+      <stop offset="50%" stop-color="#FFD43B"/>
+      <stop offset="100%" stop-color="#3776AB"/>
+    </linearGradient>
+  </defs>
+</svg>
