@@ -7,8 +7,8 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-FFD43B?style=for-the-badge)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github)](./CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/yourusername/python-30-days?style=for-the-badge&logo=github&color=FFD43B)](https://github.com/yourusername/python-30-days)
-[![Forks](https://img.shields.io/github/forks/yourusername/python-30-days?style=for-the-badge&logo=github&color=3776AB)](https://github.com/yourusername/python-30-days)
+[![Stars](https://img.shields.io/github/stars/hassanireza/python-30-days?style=for-the-badge&logo=github&color=FFD43B)](https://github.com/hassanireza/python-30-days)
+[![Forks](https://img.shields.io/github/forks/hassanireza/python-30-days?style=for-the-badge&logo=github&color=3776AB)](https://github.com/hassanireza/python-30-days)
 
 <br/>
 
