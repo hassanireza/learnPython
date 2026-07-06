@@ -53,12 +53,13 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
 
   const value = useMemo(
     () => ({ completedDays, isComplete, toggleComplete, completedCount, percentComplete, resetProgress }),
-    [completedDays],
+    [completedDays, isComplete, completedCount, percentComplete],
   )
 
   return <ProgressContext.Provider value={value}>{children}</ProgressContext.Provider>
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useProgress() {
   const ctx = useContext(ProgressContext)
   if (!ctx) throw new Error('useProgress must be used within a ProgressProvider')
