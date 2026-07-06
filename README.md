@@ -30,7 +30,6 @@
 - [Who Is This For?](#-who-is-this-for)
 - [Prerequisites](#-prerequisites)
 - [How to Use This Course](#-how-to-use-this-course)
-- [Setup Guide](#-setup-guide)
 - [Curriculum](#-curriculum)
 - [Project Gallery](#-project-gallery)
 - [Python Best Practices](#-python-best-practices)
@@ -108,61 +107,6 @@ days/day-XX/
 4. Only check `solution.py` after you have genuinely tried
 5. Commit your version to your fork
 6. Move to the next day
-
----
-
-## Setup Guide
-
-### Step 1 - Install Python
-
-**macOS**
-```bash
-# Using Homebrew (recommended)
-brew install python@3.12
-
-# Verify
-python3 --version
-```
-
-**Windows**
-```powershell
-# Using winget
-winget install Python.Python.3.12
-
-# Verify in a new terminal
-python --version
-```
-
-**Linux (Debian/Ubuntu)**
-```bash
-sudo apt update && sudo apt install python3 python3-pip python3-venv -y
-
-# Verify
-python3 --version
-```
-
-### Step 2 - Install a Code Editor
-
-[Visual Studio Code](https://code.visualstudio.com/) is recommended. Install the official Python extension by Microsoft after opening VS Code.
-
-### Step 3 - Clone This Repository
-
-```bash
-# Clone your fork (replace with your username)
-git clone https://github.com/YOUR_USERNAME/python-30-days.git
-cd python-30-days
-```
-
-### Step 4 - Verify Everything Works
-
-```bash
-python3 -c "import sys; print(f'Python {sys.version} is ready!')"
-```
-
-You should see output similar to:
-```
-Python 3.12.x is ready!
-```
 
 ---
 
