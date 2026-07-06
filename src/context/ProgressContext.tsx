@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useMemo, useState } from 'react'
+import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { TOTAL_DAYS } from '../data/curriculum'
 
 /**
@@ -38,22 +38,22 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(completedDays))
   }, [completedDays])
 
-  const isComplete = (day: number) => completedDays.includes(day)
+  const isComplete = useCallback((day: number) => completedDays.includes(day), [completedDays])
 
-  const toggleComplete = (day: number) => {
+  const toggleComplete = useCallback((day: number) => {
     setCompletedDays((prev) =>
       prev.includes(day) ? prev.filter((d) => d !== day) : [...prev, day].sort((a, b) => a - b),
     )
-  }
+  }, [])
 
-  const resetProgress = () => setCompletedDays([])
+  const resetProgress = useCallback(() => setCompletedDays([]), [])
 
   const completedCount = completedDays.length
   const percentComplete = Math.round((completedCount / TOTAL_DAYS) * 100)
 
   const value = useMemo(
     () => ({ completedDays, isComplete, toggleComplete, completedCount, percentComplete, resetProgress }),
-    [completedDays, isComplete, completedCount, percentComplete],
+    [completedDays, isComplete, toggleComplete, completedCount, percentComplete, resetProgress],
   )
 
   return <ProgressContext.Provider value={value}>{children}</ProgressContext.Provider>
