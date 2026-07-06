@@ -219,10 +219,12 @@ npm run preview
 This project deploys itself. The included workflow at `.github/workflows/deploy.yml` runs on every push to `main` and:
 
 1. Checks out the repository
-2. Installs dependencies with `npm ci`
+2. Installs dependencies with `npm install`
 3. Lints and type checks the project
 4. Builds the production bundle with `npm run build`
 5. Uploads and publishes the `dist/` folder to GitHub Pages using `actions/deploy-pages`
+
+> Note: this repository ships without a committed `package-lock.json` since it was generated in an offline sandbox without registry access. Run `npm install` once locally and commit the resulting `package-lock.json` for faster, fully reproducible CI runs (then you can switch the workflow back to `npm ci` with `cache: npm`, which is the recommended long term setup).
 
 ### One time repository setup
 
