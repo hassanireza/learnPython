@@ -1,24 +1,24 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Python in 30 Days" width="100%"/>
+<img src="./docs/banner.svg" alt="Python in 30 Days" width="100%"/>
 
 <br/>
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)](https://python.org)
+[![React](https://img.shields.io/badge/React-18.3-149ECA?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 [![License](https://img.shields.io/badge/License-MIT-FFD43B?style=for-the-badge)](./LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github)](./CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/hassanireza/python-30-days?style=for-the-badge&logo=github&color=FFD43B)](https://github.com/hassanireza/python-30-days)
-[![Forks](https://img.shields.io/github/forks/hassanireza/python-30-days?style=for-the-badge&logo=github&color=3776AB)](https://github.com/hassanireza/python-30-days)
+[![Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-222222?style=for-the-badge&logo=github)](https://pages.github.com)
 
 <br/>
 
-> **A complete, beginner-friendly Python programming course designed to take you from zero experience to building real projects in 30 days. Every lesson includes a hands-on project, clean code examples, and best practices used by professional Python developers.**
+> **A free, interactive Python programming course rebuilt as a modern single page application. Thirty daily lessons, thirty hands on projects, full navigation freedom, and a downloadable certificate. No login required to learn, no login required to graduate.**
 
 <br/>
 
-[![Start Learning](https://img.shields.io/badge/%E2%96%B6%20START%20LEARNING-Day%2001-FFD43B?style=for-the-badge)](./days/day-01/README.md)
+[![Live Demo](https://img.shields.io/badge/%E2%96%B6%20LIVE%20DEMO-Visit%20Site-FFD43B?style=for-the-badge)](#)
 &nbsp;&nbsp;
-[![View All Days](https://img.shields.io/badge/%F0%9F%93%96%20VIEW%20CURRICULUM-30%20Days-3776AB?style=for-the-badge)](#-curriculum)
+[![Get Started](https://img.shields.io/badge/%F0%9F%9A%80%20GET%20STARTED-Local%20Setup-3776AB?style=for-the-badge)](#getting-started)
 
 </div>
 
@@ -26,354 +26,343 @@
 
 ## Table of Contents
 
-- [Why This Course?](#-why-this-course)
-- [Who Is This For?](#-who-is-this-for)
-- [Prerequisites](#-prerequisites)
-- [How to Use This Course](#-how-to-use-this-course)
-- [Setup Guide](#-setup-guide)
-- [Curriculum](#-curriculum)
-- [Project Gallery](#-project-gallery)
-- [Python Best Practices](#-python-best-practices)
-- [Community & Contributing](#-community--contributing)
-- [License](#-license)
+- [About](#about)
+- [Key Principles](#key-principles)
+- [Feature Overview](#feature-overview)
+- [Screenshots](#screenshots)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Deployment to GitHub Pages](#deployment-to-github-pages)
+- [Curriculum](#curriculum)
+- [Authentication Model](#authentication-model)
+- [Certificate](#certificate)
+- [Accessibility and Design](#accessibility-and-design)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
-## Why This Course?
-
-This repository was built on a simple idea: **the best way to learn Python is by writing Python**. Every single day, you will read a concept, see it explained with real examples, and then build something with it. No passive reading. No syntax memorization drills. Just code.
-
-What makes this different from other Python tutorials:
-
-| Feature | This Course | Typical Tutorial |
-|---|---|---|
-| Hands-on project every day | YES | Rarely |
-| PEP 8 compliant examples | YES | Sometimes |
-| Covers Python 3.10+ features | YES | Often outdated |
-| Navigation between lessons | YES | No |
-| Real-world project focus | YES | Toy examples |
-| Free forever | YES | Usually paywalled |
-
----
-
-## Who Is This For?
-
-This course is built for:
-
-- **Complete beginners** who have never written a line of code
-- **Developers from other languages** making the move to Python
-- **Students** who want structured, daily learning with clear goals
-- **Self-taught programmers** who want to fill gaps and learn best practices
-
----
-
-## Prerequisites
-
-You do not need any prior programming experience. You need:
-
-- A computer running Windows, macOS, or Linux
-- An internet connection
-- About 1 to 2 hours per day
-- A genuine desire to build things
-
----
-
-## How to Use This Course
-
-```
-One lesson per day.
-Read the concept.
-Study the examples.
-Build the project.
-Repeat.
-```
-
-Each day folder contains:
-
-```
-days/day-XX/
-├── README.md        # Lesson content, concept explanation, code examples
-└── project/
-    ├── README.md    # Project brief, requirements, how to run
-    └── solution.py  # Reference solution (try it yourself first!)
-```
-
-> **Tip:** Fork this repository and commit your daily work to your own fork. Watching your own progress is one of the most motivating things you can do as a learner.
-
-### Recommended Workflow
-
-1. Fork this repository
-2. Read the day's `README.md` thoroughly
-3. Try to write the project code yourself in a new file
-4. Only check `solution.py` after you have genuinely tried
-5. Commit your version to your fork
-6. Move to the next day
-
----
-
-## Setup Guide
-
-### Step 1 - Install Python
-
-**macOS**
-```bash
-# Using Homebrew (recommended)
-brew install python@3.12
-
-# Verify
-python3 --version
-```
-
-**Windows**
-```powershell
-# Using winget
-winget install Python.Python.3.12
-
-# Verify in a new terminal
-python --version
-```
-
-**Linux (Debian/Ubuntu)**
-```bash
-sudo apt update && sudo apt install python3 python3-pip python3-venv -y
-
-# Verify
-python3 --version
-```
-
-### Step 2 - Install a Code Editor
-
-[Visual Studio Code](https://code.visualstudio.com/) is recommended. Install the official Python extension by Microsoft after opening VS Code.
-
-### Step 3 - Clone This Repository
-
-```bash
-# Clone your fork (replace with your username)
-git clone https://github.com/YOUR_USERNAME/python-30-days.git
-cd python-30-days
-```
-
-### Step 4 - Verify Everything Works
-
-```bash
-python3 -c "import sys; print(f'Python {sys.version} is ready!')"
-```
-
-You should see output similar to:
-```
-Python 3.12.x is ready!
-```
-
----
-
-## Curriculum
-
-<details>
-<summary><strong>Week 1: Python Foundations (Days 1-7)</strong></summary>
-
-| Day | Topic | Concepts Covered | Project |
-|:---:|---|---|---|
-| [01](./days/day-01/README.md) | Setup & Hello World | Installation, `print()`, running scripts | Personal Info Card |
-| [02](./days/day-02/README.md) | Variables & Data Types | `int`, `float`, `str`, `bool`, `type()` | Type Explorer |
-| [03](./days/day-03/README.md) | Strings & String Methods | Indexing, slicing, `upper()`, `format()`, f-strings | Mad Libs Generator |
-| [04](./days/day-04/README.md) | Numbers & Math | Operators, `math` module, `round()`, integer division | Scientific Calculator |
-| [05](./days/day-05/README.md) | User Input | `input()`, type casting, `int()`, `float()` | Interactive Quiz |
-| [06](./days/day-06/README.md) | Lists | Indexing, `append()`, `remove()`, slicing, `len()` | Shopping List Manager |
-| [07](./days/day-07/README.md) | Tuples, Sets & Booleans | Immutability, sets, `in`, `not in`, comparisons | Unique Word Counter |
-
-</details>
-
-<details>
-<summary><strong>Week 2: Control Flow & Functions (Days 8-14)</strong></summary>
-
-| Day | Topic | Concepts Covered | Project |
-|:---:|---|---|---|
-| [08](./days/day-08/README.md) | Dictionaries | Key-value pairs, `.get()`, `.keys()`, `.values()`, nesting | Contact Book |
-| [09](./days/day-09/README.md) | Conditionals | `if`, `elif`, `else`, ternary operator, `match` | BMI Calculator |
-| [10](./days/day-10/README.md) | `for` Loops | `range()`, `enumerate()`, `zip()`, loop unpacking | Multiplication Table |
-| [11](./days/day-11/README.md) | `while` Loops | Loop control, `break`, `continue`, `else`, sentinel values | Number Guessing Game |
-| [12](./days/day-12/README.md) | Functions Basics | `def`, parameters, return values, docstrings | Password Generator |
-| [13](./days/day-13/README.md) | Function Arguments | `*args`, `**kwargs`, default params, type hints | Currency Converter |
-| [14](./days/day-14/README.md) | Scope & Closures | LEGB rule, `global`, `nonlocal`, inner functions | Counter Factory |
-
-</details>
-
-<details>
-<summary><strong>Week 3: Intermediate Python (Days 15-21)</strong></summary>
-
-| Day | Topic | Concepts Covered | Project |
-|:---:|---|---|---|
-| [15](./days/day-15/README.md) | Error Handling | `try`, `except`, `finally`, `raise`, custom exceptions | Safe Calculator |
-| [16](./days/day-16/README.md) | File I/O | `open()`, `read()`, `write()`, `with`, `pathlib` | Personal Diary |
-| [17](./days/day-17/README.md) | List Comprehensions | Comprehensions, dict/set comprehensions, conditionals | Data Filter Tool |
-| [18](./days/day-18/README.md) | Lambda & Functional Tools | `lambda`, `map()`, `filter()`, `sorted()`, `functools` | Functional Pipeline |
-| [19](./days/day-19/README.md) | Modules & Packages | `import`, `from`, `__name__`, `pip`, virtual envs | Random Quote CLI |
-| [20](./days/day-20/README.md) | OOP: Classes & Objects | `class`, `__init__`, instance vs class attributes, methods | Bank Account System |
-| [21](./days/day-21/README.md) | OOP: Inheritance | Inheritance, `super()`, `isinstance()`, `issubclass()` | Animal Kingdom |
-
-</details>
-
-<details>
-<summary><strong>Week 4: Advanced Patterns & Real-World Skills (Days 22-30)</strong></summary>
-
-| Day | Topic | Concepts Covered | Project |
-|:---:|---|---|---|
-| [22](./days/day-22/README.md) | Dunder Methods | `__str__`, `__repr__`, `__len__`, `__eq__`, `__add__` | Custom Data Structure |
-| [23](./days/day-23/README.md) | Decorators | `@decorator`, `@wraps`, stacked decorators, `functools` | Function Profiler |
-| [24](./days/day-24/README.md) | Generators & Iterators | `yield`, `next()`, `iter()`, generator expressions | Infinite Sequences |
-| [25](./days/day-25/README.md) | Context Managers | `with`, `__enter__`, `__exit__`, `contextlib` | File Manager |
-| [26](./days/day-26/README.md) | Regular Expressions | `re` module, patterns, groups, `findall()`, `sub()` | Text Parser |
-| [27](./days/day-27/README.md) | JSON & CSV | `json`, `csv`, `pathlib`, data serialization | Grade Book |
-| [28](./days/day-28/README.md) | Working with APIs | `urllib`, `requests`, REST concepts, JSON responses | Weather CLI App |
-| [29](./days/day-29/README.md) | Testing with pytest | `pytest`, `assert`, fixtures, `parametrize`, TDD basics | Full Test Suite |
-| [30](./days/day-30/README.md) | Final Project | Everything combined: CLI app architecture, packaging | CLI Todo App |
-
-</details>
-
----
-
-## Project Gallery
-
-Every day builds something real. Here is a summary of all 30 projects:
-
-```
-Day 01  Personal Info Card          ▸ Print formatted personal details
-Day 02  Type Explorer               ▸ Inspect and convert between data types
-Day 03  Mad Libs Generator          ▸ Interactive story builder using string methods
-Day 04  Scientific Calculator       ▸ Full arithmetic and math functions CLI
-Day 05  Interactive Quiz            ▸ Multiple choice quiz with score tracking
-Day 06  Shopping List Manager       ▸ Add, remove, and view items in a list
-Day 07  Unique Word Counter         ▸ Count unique words in any text input
-Day 08  Contact Book                ▸ Store and look up contacts by name
-Day 09  BMI Calculator              ▸ Calculate and classify body mass index
-Day 10  Multiplication Table        ▸ Generate formatted multiplication tables
-Day 11  Number Guessing Game        ▸ Random number game with hints and retries
-Day 12  Password Generator          ▸ Secure, configurable random passwords
-Day 13  Currency Converter          ▸ Convert between currencies with exchange rates
-Day 14  Counter Factory             ▸ Closure-powered independent counters
-Day 15  Safe Calculator             ▸ Full calculator with proper error handling
-Day 16  Personal Diary              ▸ Write and read timestamped diary entries
-Day 17  Data Filter Tool            ▸ Filter and transform datasets efficiently
-Day 18  Functional Pipeline         ▸ Data transformation using map and filter
-Day 19  Random Quote CLI            ▸ Pull and display quotes from a local module
-Day 20  Bank Account System         ▸ OOP bank account with deposits and withdrawals
-Day 21  Animal Kingdom              ▸ Class hierarchy with sounds and behaviors
-Day 22  Custom Data Structure       ▸ A Stack class with full dunder method support
-Day 23  Function Profiler           ▸ Decorator that measures execution time
-Day 24  Infinite Sequences          ▸ Memory-efficient infinite number sequences
-Day 25  File Manager                ▸ Context manager for safe file operations
-Day 26  Text Parser                 ▸ Extract emails, URLs, and data with regex
-Day 27  Grade Book                  ▸ Read, write, and analyze student data (CSV/JSON)
-Day 28  Weather CLI App             ▸ Fetch live weather from an API
-Day 29  Full Test Suite             ▸ Write and run tests for previous projects
-Day 30  CLI Todo App                ▸ Feature-complete command-line to-do manager
-```
-
----
-
-## Python Best Practices
-
-All code in this repository follows these standards. You should too.
-
-### Code Style (PEP 8)
-
-```python
-# Correct: snake_case for variables and functions
-user_name = "Alice"
-def calculate_total(price, tax_rate=0.2):
-    return price * (1 + tax_rate)
-
-# Correct: PascalCase for classes
-class BankAccount:
-    pass
-
-# Correct: UPPER_SNAKE_CASE for constants
-MAX_RETRIES = 3
-DEFAULT_TIMEOUT = 30
-```
-
-### Type Hints (PEP 484)
-
-```python
-# Always annotate function signatures
-def greet(name: str, times: int = 1) -> str:
-    return (f"Hello, {name}!\n" * times).strip()
-
-# Use the built-in generics (Python 3.10+)
-def get_scores(students: list[str]) -> dict[str, int]:
-    return {student: 0 for student in students}
-```
-
-### Docstrings (PEP 257)
-
-```python
-def divide(numerator: float, denominator: float) -> float:
-    """Divide numerator by denominator.
-
-    Args:
-        numerator: The number to be divided.
-        denominator: The number to divide by.
-
-    Returns:
-        The result of the division.
-
-    Raises:
-        ValueError: If denominator is zero.
-
-    Example:
-        >>> divide(10, 2)
-        5.0
-    """
-    if denominator == 0:
-        raise ValueError("Cannot divide by zero.")
-    return numerator / denominator
-```
-
-### Project Structure
-
-```
-my_project/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── src/
-│   └── my_project/
-│       ├── __init__.py
-│       └── main.py
-└── tests/
-    └── test_main.py
-```
-
----
-
-## Community & Contributing
-
-Contributions are welcome and appreciated. See [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines.
-
-Ways to contribute:
-
-- Fix typos or improve explanations
-- Add alternative project solutions
-- Report issues or broken code
-- Translate lessons
-- Star the repository to help others find it
-
----
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
-
----
+## About
+
+This repository is a TypeScript and React rebuild of the original **Python in 30 Days** Markdown course. Every lesson and every project solution from the original curriculum has been preserved, and wrapped in a fast, accessible, single page application that works entirely in the browser with zero backend.
+
+The rebuild was guided by one rule above all others: **learning should never be blocked**. There is no wall between a visitor and the content. There is no test a learner must pass to move forward. There is no account required to read a single lesson or to walk away with a certificate.
+
+## Key Principles
+
+| Principle | What it means in this app |
+|---|---|
+| Content first | Every one of the 30 lessons and 30 project solutions is reachable in one click from the sidebar, with no gating. |
+| Free navigation | Previous and Next buttons always work. Nothing checks whether you "passed" the current day before letting you continue. |
+| Optional accounts | A login and signup flow exists purely as a UI showcase. It personalizes a greeting and nothing more. |
+| No login certificate | The certificate page asks for a name, renders a certificate live, and lets you download it as a PNG. No account, no server, no quiz score required. |
+| Static and portable | The whole app is a static bundle. It ships to GitHub Pages with a single GitHub Actions workflow and needs no server, database or API keys. |
+
+## Feature Overview
+
+- **30 day curriculum** covering fundamentals, data structures, control flow, functions, error handling, file I/O, Pythonic idioms, object oriented programming, decorators, generators, context managers, regular expressions, JSON and CSV, working with APIs, and testing with pytest.
+- **Markdown powered lessons** rendered with syntax highlighted code blocks, tables, and callouts, sourced from the original course content.
+- **Project solution viewer** displaying the day's full `solution.py` file with Python syntax highlighting.
+- **Free form navigation** with a persistent sidebar grouped by topic, a home page grid of every day, and Previous and Next controls on each lesson.
+- **Optional progress tracker** stored in the browser that lets a learner mark days complete, purely for their own bookkeeping. It is never used to lock content.
+- **Showcase authentication** with login and signup screens, clearly labeled as a demonstration, backed by `localStorage` instead of a real backend.
+- **No login certificate generator** that renders an SVG certificate live and exports it as a downloadable PNG image.
+- **Responsive, accessible UI** that works on mobile, tablet and desktop, with a collapsible navigation drawer on small screens.
+- **Continuous deployment** to GitHub Pages through a GitHub Actions workflow that lints, type checks, builds and publishes the site automatically on every push to `main`.
+
+## Screenshots
 
 <div align="center">
 
-**Built with care for learners everywhere.**
+| Home | Lesson View | Certificate |
+|---|---|---|
+| Curriculum grid with progress stats | Markdown lesson with code and project panel | Live certificate preview and PNG export |
 
-[![Start Day 1](https://img.shields.io/badge/%F0%9F%9A%80%20Begin%20Your%20Journey-Day%2001%20%E2%86%92-FFD43B?style=for-the-badge)](./days/day-01/README.md)
+</div>
 
-<br/>
+> Replace the placeholders above with real screenshots once the project is deployed. Recommended path: `docs/screenshots/home.png`, `docs/screenshots/lesson.png`, `docs/screenshots/certificate.png`.
 
-*If this helped you, please give it a star. It helps more people find it.*
+## Tech Stack
+
+<div align="center">
+
+[![React](https://img.shields.io/badge/React-18-149ECA?logo=react&logoColor=white)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)](https://vitejs.dev)
+[![React Router](https://img.shields.io/badge/React%20Router-6-CA4245?logo=reactrouter&logoColor=white)](https://reactrouter.com)
+[![ESLint](https://img.shields.io/badge/ESLint-8-4B32C3?logo=eslint&logoColor=white)](https://eslint.org)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Hosting-222222?logo=github&logoColor=white)](https://pages.github.com)
+
+</div>
+
+| Layer | Choice | Why |
+|---|---|---|
+| UI framework | React 18 with function components and hooks | Predictable state management for navigation, auth and progress |
+| Language | TypeScript, strict mode | Type safety across routing, context and content loading |
+| Build tool | Vite | Instant dev server, native ES modules, first class static asset handling |
+| Routing | React Router 6, `HashRouter` | Client side routing that survives a full page refresh on GitHub Pages without a server rewrite rule |
+| Content | Raw Markdown and Python files bundled with `import.meta.glob` | Keeps the original lesson content as the single source of truth, no CMS or database needed |
+| Markdown rendering | `react-markdown` with `remark-gfm` | Tables, task lists and full GitHub flavored Markdown support |
+| Code highlighting | `react-syntax-highlighter` | Accurate Python syntax highlighting for lessons and project solutions |
+| State | React Context plus `localStorage` | Lightweight, dependency free persistence for the showcase auth and progress tracker |
+| CI/CD | GitHub Actions | Lint, type check, build and deploy automatically on every push |
+| Hosting | GitHub Pages | Free static hosting with a custom domain option |
+
+## Architecture
+
+<div align="center">
+<img src="./docs/architecture.svg" alt="Architecture diagram" width="100%"/>
+</div>
+
+The application is intentionally simple:
+
+1. Thirty lesson files (`lesson.md`) and thirty project files (`solution.py`) live under `src/content/day-XX/`.
+2. Vite bundles that content at build time as raw text using `import.meta.glob`, so there is no runtime fetch and no flash of missing content.
+3. React Router renders a `Layout` shell (navbar plus sidebar) around each page. The `DayPage` route resolves a day number from the URL, pulls the matching Markdown and Python content, and renders it with free Previous and Next controls.
+4. Two React contexts back the interactive pieces of the UI: `AuthContext` for the showcase login state and `ProgressContext` for the optional "mark complete" tracker. Both persist to `localStorage` only, keeping the app entirely static.
+5. GitHub Actions builds the app on every push to `main`, then publishes the `dist/` output to GitHub Pages using the official `actions/deploy-pages` action.
+
+## Project Structure
+
+```text
+python-30-days-react/
+├── .github/
+│   └── workflows/
+│       ├── ci.yml            CI checks on pull requests
+│       └── deploy.yml        Build and deploy to GitHub Pages
+├── docs/
+│   ├── banner.svg
+│   └── architecture.svg
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   │   ├── Layout.tsx        Page shell: navbar + sidebar + outlet
+│   │   ├── Navbar.tsx        Top navigation, progress meter, auth controls
+│   │   ├── Sidebar.tsx       Full curriculum list grouped by topic
+│   │   ├── Footer.tsx
+│   │   ├── CodeBlock.tsx     Syntax highlighted code renderer
+│   │   └── Certificate.tsx   SVG certificate template
+│   ├── context/
+│   │   ├── AuthContext.tsx     Showcase-only auth, localStorage backed
+│   │   └── ProgressContext.tsx Optional, non-blocking progress tracker
+│   ├── data/
+│   │   ├── curriculum.ts     Static metadata for all 30 days
+│   │   └── content.ts        Loads raw lesson/solution files at build time
+│   ├── content/
+│   │   └── day-01 .. day-30/
+│   │       ├── lesson.md
+│   │       └── solution.py
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── DayPage.tsx
+│   │   ├── Login.tsx
+│   │   ├── Signup.tsx
+│   │   ├── CertificatePage.tsx
+│   │   └── NotFound.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── index.html
+├── vite.config.ts
+├── tsconfig.json
+├── package.json
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org) 20 or later
+- npm 10 or later (bundled with Node.js)
+
+### Installation
+
+```bash
+git clone https://github.com/<your-username>/python-30-days-react.git
+cd python-30-days-react
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+### Build for production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Available Scripts
+
+| Script | Description |
+|---|---|
+| `npm run dev` | Starts the Vite development server with hot module reload |
+| `npm run build` | Type checks the project and produces an optimized build in `dist/` |
+| `npm run preview` | Serves the production build locally to sanity check before deploying |
+| `npm run lint` | Runs ESLint across the codebase |
+
+## Deployment to GitHub Pages
+
+This project deploys itself. The included workflow at `.github/workflows/deploy.yml` runs on every push to `main` and:
+
+1. Checks out the repository
+2. Installs dependencies with `npm ci`
+3. Lints and type checks the project
+4. Builds the production bundle with `npm run build`
+5. Uploads and publishes the `dist/` folder to GitHub Pages using `actions/deploy-pages`
+
+### One time repository setup
+
+1. Push this repository to GitHub.
+2. In your repository, open **Settings → Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+4. If your repository name is not `python-30-days-react`, update the `REPO_NAME` constant in `vite.config.ts` so the built asset paths match your GitHub Pages sub path.
+5. Push to `main`. The **Deploy to GitHub Pages** workflow will build and publish automatically. Your site will be live at:
+
+```text
+https://<your-username>.github.io/<your-repo-name>/
+```
+
+The app uses React Router's `HashRouter`, so deep links such as `/#/day/12` work correctly on GitHub Pages without needing a custom 404 redirect trick.
+
+## Curriculum
+
+<div align="center">
+
+| Week | Focus | Days |
+|---|---|---|
+| Week 1 | Fundamentals | Setup, Variables, Strings, Numbers, User Input |
+| Week 2 | Data Structures and Control Flow | Lists, Tuples, Sets, Dictionaries, Conditionals, Loops |
+| Week 3 | Functions and Robust Code | Functions, Type Hints, Scope, Error Handling, File I/O |
+| Week 4 | Pythonic Code and OOP | Comprehensions, Lambda/Map/Filter, Modules, Classes, Inheritance, Dunder Methods |
+| Week 5 | Advanced Python and Real Data | Decorators, Generators, Context Managers, Regex, JSON/CSV, APIs |
+| Final Stretch | Professional Practices | Testing with pytest, Final CLI Todo App project |
+
+</div>
+
+Full day by day breakdown:
+
+| Day | Title | Topic |
+|---|---|---|
+| 01 | Setup & Hello World | Fundamentals |
+| 02 | Variables & Data Types | Fundamentals |
+| 03 | Strings & String Methods | Fundamentals |
+| 04 | Numbers & Math Operations | Fundamentals |
+| 05 | User Input | Fundamentals |
+| 06 | Lists | Data Structures |
+| 07 | Tuples, Sets & Booleans | Data Structures |
+| 08 | Dictionaries | Data Structures |
+| 09 | Conditionals | Control Flow |
+| 10 | for Loops | Control Flow |
+| 11 | while Loops | Control Flow |
+| 12 | Functions Basics | Functions |
+| 13 | Function Arguments & Type Hints | Functions |
+| 14 | Scope & Closures | Functions |
+| 15 | Error Handling | Robust Code |
+| 16 | File I/O | Robust Code |
+| 17 | List Comprehensions | Pythonic Code |
+| 18 | Lambda, Map, Filter & Sorted | Pythonic Code |
+| 19 | Modules & Packages | Pythonic Code |
+| 20 | OOP: Classes & Objects | Object Oriented Programming |
+| 21 | OOP: Inheritance & Polymorphism | Object Oriented Programming |
+| 22 | Dunder Methods | Object Oriented Programming |
+| 23 | Decorators | Advanced Python |
+| 24 | Generators & Iterators | Advanced Python |
+| 25 | Context Managers | Advanced Python |
+| 26 | Regular Expressions | Real World Data |
+| 27 | JSON & CSV Data | Real World Data |
+| 28 | Working with APIs | Real World Data |
+| 29 | Testing with pytest | Professional Practices |
+| 30 | Final Project: CLI Todo App | Professional Practices |
+
+## Authentication Model
+
+This project intentionally ships a login and signup screen that does **not** gate any content. It exists to demonstrate what an authenticated experience could look like in the UI, nothing more.
+
+```text
+                    ┌─────────────────────────┐
+                    │   Visitor opens the app  │
+                    └────────────┬────────────┘
+                                 │
+                 ┌───────────────┴────────────────┐
+                 │                                 │
+                 ▼                                 ▼
+     ┌───────────────────────┐        ┌─────────────────────────┐
+     │ Browses lessons freely │        │ Optionally signs up      │
+     │ No account needed      │        │ or logs in (showcase)    │
+     └───────────┬───────────┘        └────────────┬─────────────┘
+                 │                                  │
+                 ▼                                  ▼
+     ┌───────────────────────┐        ┌─────────────────────────┐
+     │ Marks days complete    │        │ Sees a personalized      │
+     │ (stored in browser)    │        │ greeting in the navbar   │
+     └───────────┬───────────┘        └────────────┬─────────────┘
+                 │                                  │
+                 └────────────────┬─────────────────┘
+                                  ▼
+                    ┌─────────────────────────┐
+                    │ Generates certificate    │
+                    │ any time, no login,      │
+                    │ no test score required   │
+                    └─────────────────────────┘
+```
+
+Key facts about the showcase auth:
+
+- Accounts are stored in `localStorage` under the current browser only. There is no backend, no database and no network request involved.
+- Signing up or logging in only changes the greeting shown in the navbar. It never unlocks or restricts any lesson.
+- The certificate page never checks whether a user is logged in.
+
+## Certificate
+
+The `/certificate` route renders a live SVG certificate that updates as you type your name, and can be exported to a PNG file with a single click. There is no login requirement and no minimum number of completed lessons. The certificate is available the moment you land on the page, because learning should be rewarded on your terms, not gated behind arbitrary checkpoints.
+
+## Accessibility and Design
+
+- Semantic HTML throughout, including proper heading hierarchy inside rendered lessons.
+- Keyboard accessible navigation links and buttons.
+- Color palette inspired by the official Python brand colors (blue and yellow) on a high contrast dark theme for comfortable long reading sessions.
+- Responsive layout with a collapsible sidebar drawer below 900px width.
+
+## Roadmap
+
+- [ ] Add optional dark and light theme toggle
+- [ ] Add search across lessons
+- [ ] Add code playground for running snippets in the browser
+- [ ] Add downloadable PDF certificate in addition to PNG
+- [ ] Add i18n support for translated lessons
+
+## Contributing
+
+Contributions are welcome. Please open an issue to discuss significant changes before submitting a pull request.
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/my-improvement`
+3. Commit your changes: `git commit -m "Add my improvement"`
+4. Push to your branch: `git push origin feature/my-improvement`
+5. Open a pull request
+
+Please run `npm run lint` and `npm run build` locally before submitting a pull request. Both checks also run automatically in CI on every pull request.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE). Course content is adapted from the original Python in 30 Days curriculum and remains free for personal and educational use.
+
+<div align="center">
+
+Made for learners who just want to start writing Python, without filling out a form first.
 
 </div>

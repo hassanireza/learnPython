@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" width="1000" height="460">
+  <defs>
+    <linearGradient id="ab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161923"/>
+      <stop offset="1" stop-color="#0f1115"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4b8bbe"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="460" fill="url(#ab)" rx="14"/>
+
+  <text x="500" y="40" text-anchor="middle" fill="#eef1f6" font-family="Segoe UI, sans-serif" font-size="20" font-weight="700">Application Architecture</text>
+
+  <g font-family="Segoe UI, sans-serif">
+    <rect x="40" y="80" width="220" height="90" rx="10" fill="#1e2230" stroke="#4b8bbe" stroke-width="1.5"/>
+    <text x="150" y="115" text-anchor="middle" fill="#eef1f6" font-size="15" font-weight="700">Content Source</text>
+    <text x="150" y="138" text-anchor="middle" fill="#a7adbb" font-size="12">30x lesson.md</text>
+    <text x="150" y="155" text-anchor="middle" fill="#a7adbb" font-size="12">30x solution.py</text>
+
+    <rect x="330" y="80" width="220" height="90" rx="10" fill="#1e2230" stroke="#4b8bbe" stroke-width="1.5"/>
+    <text x="440" y="115" text-anchor="middle" fill="#eef1f6" font-size="15" font-weight="700">Vite Build</text>
+    <text x="440" y="138" text-anchor="middle" fill="#a7adbb" font-size="12">import.meta.glob</text>
+    <text x="440" y="155" text-anchor="middle" fill="#a7adbb" font-size="12">raw text bundling</text>
+
+    <rect x="620" y="80" width="220" height="90" rx="10" fill="#1e2230" stroke="#ffd43b" stroke-width="1.5"/>
+    <text x="730" y="115" text-anchor="middle" fill="#eef1f6" font-size="15" font-weight="700">Static Bundle</text>
+    <text x="730" y="138" text-anchor="middle" fill="#a7adbb" font-size="12">HTML / CSS / JS</text>
+    <text x="730" y="155" text-anchor="middle" fill="#a7adbb" font-size="12">dist/</text>
+
+    <line x1="260" y1="125" x2="325" y2="125" stroke="#4b8bbe" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="550" y1="125" x2="615" y2="125" stroke="#4b8bbe" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="330" y="220" width="220" height="90" rx="10" fill="#1e2230" stroke="#ffd43b" stroke-width="1.5"/>
+    <text x="440" y="255" text-anchor="middle" fill="#eef1f6" font-size="15" font-weight="700">GitHub Actions</text>
+    <text x="440" y="278" text-anchor="middle" fill="#a7adbb" font-size="12">lint, build, upload</text>
+    <text x="440" y="295" text-anchor="middle" fill="#a7adbb" font-size="12">artifact</text>
+
+    <line x1="730" y1="170" x2="730" y2="197" stroke="#ffd43b" stroke-width="2"/>
+    <line x1="730" y1="197" x2="450" y2="197" stroke="#ffd43b" stroke-width="2"/>
+    <line x1="450" y1="197" x2="450" y2="215" stroke="#ffd43b" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="330" y="360" width="220" height="80" rx="10" fill="#1e2230" stroke="#4caf7d" stroke-width="1.5"/>
+    <text x="440" y="392" text-anchor="middle" fill="#eef1f6" font-size="15" font-weight="700">GitHub Pages</text>
+    <text x="440" y="413" text-anchor="middle" fill="#a7adbb" font-size="12">Live site, no login needed</text>
+
+    <line x1="440" y1="310" x2="440" y2="355" stroke="#4caf7d" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <rect x="620" y="220" width="220" height="90" rx="10" fill="#1e2230" stroke="#4b8bbe" stroke-width="1.5"/>
+    <text x="730" y="255" text-anchor="middle" fill="#eef1f6" font-size="15" font-weight="700">React Runtime</text>
+    <text x="730" y="278" text-anchor="middle" fill="#a7adbb" font-size="12">Router, Context,</text>
+    <text x="730" y="295" text-anchor="middle" fill="#a7adbb" font-size="12">Markdown renderer</text>
+
+    <line x1="730" y1="310" x2="730" y2="355" stroke="#4b8bbe" stroke-width="2"/>
+    <line x1="730" y1="355" x2="560" y2="355" stroke="#4b8bbe" stroke-width="2"/>
+    <line x1="560" y1="355" x2="560" y2="400" stroke="#4b8bbe" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+</svg>

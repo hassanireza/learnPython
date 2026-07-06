@@ -1,0 +1,111 @@
+.sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  border-right: 1px solid var(--border);
+  background: var(--surface);
+  height: calc(100vh - 64px);
+  position: sticky;
+  top: 64px;
+  overflow-y: auto;
+  padding-bottom: 2rem;
+}
+
+.sidebar__summary {
+  padding: 1rem 1.1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar__summary-text {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.sidebar__summary-text strong {
+  color: var(--text);
+}
+
+.sidebar__summary-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--border);
+  overflow: hidden;
+}
+
+.sidebar__summary-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--python-blue), var(--python-yellow));
+}
+
+.sidebar__group-title {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-faint);
+  padding: 1rem 1.1rem 0.4rem;
+  font-weight: 700;
+}
+
+.sidebar__item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.5rem 1.1rem;
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  border-left: 3px solid transparent;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+
+.sidebar__item:hover {
+  background: var(--surface-hover);
+  color: var(--text);
+}
+
+.sidebar__item--active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+  background: var(--surface-hover);
+  font-weight: 600;
+}
+
+.sidebar__item-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--border);
+  font-size: 0.7rem;
+  flex-shrink: 0;
+  color: var(--text-muted);
+}
+
+.sidebar__item--active .sidebar__item-check {
+  background: var(--accent);
+  color: #fff;
+}
+
+.sidebar__item-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    position: fixed;
+    left: -300px;
+    top: 64px;
+    z-index: 39;
+    width: 280px;
+    background: var(--surface);
+    transition: left 0.2s ease;
+    box-shadow: 4px 0 16px rgba(0, 0, 0, 0.15);
+  }
+  .sidebar--open {
+    left: 0;
+  }
+}

@@ -1,0 +1,79 @@
+.certificate-page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  width: 100%;
+}
+
+.certificate-page__intro {
+  max-width: 680px;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.certificate-page__intro p {
+  color: var(--text-muted);
+}
+
+.certificate-page__progress {
+  color: var(--text-faint) !important;
+  font-size: 0.85rem;
+}
+
+.certificate-page__grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.certificate-page__form {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: sticky;
+  top: 84px;
+}
+
+.certificate-page__form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.certificate-page__form input {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.certificate-page__form input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.certificate-page__hint {
+  font-size: 0.78rem;
+  color: var(--text-faint);
+  margin: 0;
+}
+
+.certificate-page__preview {
+  padding: 1rem;
+}
+
+@media (max-width: 800px) {
+  .certificate-page__grid {
+    grid-template-columns: 1fr;
+  }
+  .certificate-page__form {
+    position: static;
+  }
+}

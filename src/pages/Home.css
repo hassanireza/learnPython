@@ -1,0 +1,164 @@
+.home {
+  padding: 0;
+}
+
+.hero {
+  padding: 4rem 1.5rem 3rem;
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero__badges {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  margin: 0 0 1rem;
+}
+
+.hero__accent {
+  background: linear-gradient(135deg, var(--python-blue), var(--python-yellow));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero__lead {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  max-width: 640px;
+  margin: 0 auto 1.75rem;
+}
+
+.hero__actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.hero__note {
+  color: var(--text-faint);
+  font-size: 0.85rem;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  max-width: 1080px;
+  margin: 0 auto 3rem;
+  padding: 0 1.5rem;
+}
+
+.stats__card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1rem;
+  text-align: center;
+}
+
+.stats__value {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--accent-strong);
+}
+
+.stats__label {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.curriculum-preview {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+
+.curriculum-preview__head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.curriculum-preview__head p {
+  color: var(--text-muted);
+}
+
+.curriculum-topic {
+  margin-bottom: 2rem;
+}
+
+.curriculum-topic h3 {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-faint);
+  margin-bottom: 0.9rem;
+}
+
+.curriculum-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.9rem;
+}
+
+.day-card {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.day-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.day-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.day-card__number {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-faint);
+  letter-spacing: 0.04em;
+}
+
+.day-card__done {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--success);
+  background: rgba(76, 175, 125, 0.12);
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+}
+
+.day-card__title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 700px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
