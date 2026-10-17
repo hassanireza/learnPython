@@ -6,6 +6,7 @@ import { getAdjacentDays, getDayMeta, TOTAL_DAYS } from '../data/curriculum'
 import { getLessonMarkdown, getSolutionCode } from '../data/content'
 import { useProgress } from '../context/ProgressContext'
 import CodeBlock from '../components/CodeBlock'
+import { DayIcon, DayTile, Icon } from '../components/icons/Icon'
 import './DayPage.css'
 
 export default function DayPage() {
@@ -41,7 +42,15 @@ export default function DayPage() {
       </div>
 
       <article className="day-page__lesson card">
-        <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ code: CodeBlock }}>
+        <ReactMarkdown remarkPlugins={[remarkGfm]} components={{
+            code: CodeBlock,
+            h1: ({ children }) => (
+              <h1 className="lesson-title">
+                <DayTile day={id} size={48} />
+                <span>{children}</span>
+              </h1>
+            ),
+          }}>
           {markdown}
         </ReactMarkdown>
       </article>
@@ -68,6 +77,7 @@ export default function DayPage() {
           className={`btn ${done ? 'btn--ghost' : 'btn--secondary'}`}
           onClick={() => toggleComplete(id)}
         >
+          <Icon name={done ? 'undo' : 'check'} size={16} />
           {done ? 'Unmark' : 'Mark complete'}
         </button>
       </div>
@@ -76,8 +86,8 @@ export default function DayPage() {
         {prev ? (
           <Link to={`/day/${prev.id}`} className="day-page__nav-btn day-page__nav-btn--prev">
             <span className="day-page__nav-label">Previous</span>
-            <span className="day-page__nav-title">
-              {prev.emoji} Day {String(prev.id).padStart(2, '0')}: {prev.title}
+            <span className="day-page__nav-title day-page__nav-title--icon">
+              <DayIcon day={prev.id} size={16} /> Day {String(prev.id).padStart(2, '0')}: {prev.title}
             </span>
           </Link>
         ) : (
@@ -87,8 +97,8 @@ export default function DayPage() {
         {next ? (
           <Link to={`/day/${next.id}`} className="day-page__nav-btn day-page__nav-btn--next">
             <span className="day-page__nav-label">Next</span>
-            <span className="day-page__nav-title">
-              {next.emoji} Day {String(next.id).padStart(2, '0')}: {next.title}
+            <span className="day-page__nav-title day-page__nav-title--icon">
+              <DayIcon day={next.id} size={16} /> Day {String(next.id).padStart(2, '0')}: {next.title}
             </span>
           </Link>
         ) : (

@@ -1,8 +1,8 @@
-# Day 14 🔭 - Scope & Closures
+# <img src="../../assets/icons/day-14.svg" width="34" height="34" align="absmiddle" alt=""> Day 14 - Scope & Closures
 
 <div align="center">
 
-| [← Day 13: Previous Lesson](../day-13/README.md) | [🏠 Home](../../README.md) | [Day 15: Next Lesson →](../day-15/README.md) |
+| [← Day 13: Previous Lesson](../day-13/README.md) | [Home](../../README.md) | [Day 15: Next Lesson →](../day-15/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -189,7 +189,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 13: Previous Lesson](../day-13/README.md) | [🏠 Home](../../README.md) | [Day 15: Next Lesson →](../day-15/README.md) |
+| [← Day 13: Previous Lesson](../day-13/README.md) | [Home](../../README.md) | [Day 15: Next Lesson →](../day-15/README.md) |
 |:---|:---:|---:|
 
 </div>

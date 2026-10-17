@@ -1,4 +1,4 @@
-# Day 27 📊 - JSON & CSV Data
+# Day 27 - JSON & CSV Data
 
 ---
 

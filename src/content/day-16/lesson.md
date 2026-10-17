@@ -1,4 +1,4 @@
-# Day 16 📁 - File I/O
+# Day 16 - File I/O
 
 ---
 

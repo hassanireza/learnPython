@@ -1,4 +1,4 @@
-# Day 22 🧙 - Dunder Methods
+# Day 22 - Dunder Methods
 
 ---
 

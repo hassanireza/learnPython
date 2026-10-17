@@ -1,6 +1,7 @@
 import { FormEvent, useState } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
+import { Icon } from '../components/icons/Icon'
 import './Auth.css'
 
 export default function Signup() {
@@ -27,8 +28,11 @@ export default function Signup() {
     <div className="auth">
       <div className="auth__card card">
         <div className="auth__notice">
+          <Icon name="info" size={16} />
+          <span>
           This is a showcase signup. Accounts are stored only in your browser, there is no server or
           database. Every lesson and the certificate work without signing up.
+          </span>
         </div>
         <h1>Create an account</h1>
         <p className="auth__sub">Purely optional. It only unlocks a personalized greeting in the navbar.</p>

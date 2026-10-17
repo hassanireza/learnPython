@@ -1,8 +1,8 @@
-# Day 02 📦 - Variables & Data Types
+# <img src="../../assets/icons/day-02.svg" width="34" height="34" align="absmiddle" alt=""> Day 02 - Variables & Data Types
 
 <div align="center">
 
-| [← Day 01: Previous Lesson](../day-01/README.md) | [🏠 Home](../../README.md) | [Day 03: Next Lesson →](../day-03/README.md) |
+| [← Day 01: Previous Lesson](../day-01/README.md) | [Home](../../README.md) | [Day 03: Next Lesson →](../day-03/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -178,7 +178,7 @@ if True:
 
 <div align="center">
 
-| [← Day 01: Previous Lesson](../day-01/README.md) | [🏠 Home](../../README.md) | [Day 03: Next Lesson →](../day-03/README.md) |
+| [← Day 01: Previous Lesson](../day-01/README.md) | [Home](../../README.md) | [Day 03: Next Lesson →](../day-03/README.md) |
 |:---|:---:|---:|
 
 </div>

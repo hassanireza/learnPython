@@ -12,8 +12,11 @@
 }
 
 .auth__notice {
-  background: rgba(75, 139, 190, 0.12);
-  border: 1px solid rgba(75, 139, 190, 0.35);
+  display: flex;
+  gap: 0.6rem;
+  align-items: flex-start;
+  background: rgba(201, 162, 75, 0.08);
+  border: 1px solid rgba(201, 162, 75, 0.35);
   color: var(--text-muted);
   font-size: 0.78rem;
   padding: 0.6rem 0.8rem;
@@ -64,7 +67,7 @@
 .auth__error {
   background: rgba(220, 80, 80, 0.12);
   border: 1px solid rgba(220, 80, 80, 0.4);
-  color: #ff8a8a;
+  color: var(--danger);
   padding: 0.5rem 0.75rem;
   border-radius: 8px;
   font-size: 0.82rem;

@@ -1,4 +1,4 @@
-# Day 08 📖 - Dictionaries
+# Day 08 - Dictionaries
 
 ---
 

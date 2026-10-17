@@ -4,11 +4,11 @@
 
 <br/>
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=FFD43B)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-FFD43B?style=for-the-badge)](./LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&logo=github)](./CONTRIBUTING.md)
-[![Stars](https://img.shields.io/github/stars/hassanireza/python-30-days?style=for-the-badge&logo=github&color=FFD43B)](https://github.com/hassanireza/python-30-days)
-[![Forks](https://img.shields.io/github/forks/hassanireza/python-30-days?style=for-the-badge&logo=github&color=3776AB)](https://github.com/hassanireza/python-30-days)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-0B1F3F?style=for-the-badge)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-C9A24B?style=for-the-badge)](./LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-0B1F3F?style=for-the-badge&logo=github)](./CONTRIBUTING.md)
+[![Stars](https://img.shields.io/github/stars/hassanireza/python-30-days?style=for-the-badge&logo=github&color=C9A24B)](https://github.com/hassanireza/python-30-days)
+[![Forks](https://img.shields.io/github/forks/hassanireza/python-30-days?style=for-the-badge&logo=github&color=0B1F3F)](https://github.com/hassanireza/python-30-days)
 
 <br/>
 
@@ -16,9 +16,9 @@
 
 <br/>
 
-[![Start Learning](https://img.shields.io/badge/%E2%96%B6%20START%20LEARNING-Day%2001-FFD43B?style=for-the-badge)](./days/day-01/README.md)
+[![Start Learning](https://img.shields.io/badge/START%20LEARNING-Day%2001-C9A24B?style=for-the-badge)](./days/day-01/README.md)
 &nbsp;&nbsp;
-[![View All Days](https://img.shields.io/badge/%F0%9F%93%96%20VIEW%20CURRICULUM-30%20Days-3776AB?style=for-the-badge)](#-curriculum)
+[![View All Days](https://img.shields.io/badge/VIEW%20CURRICULUM-30%20Days-0B1F3F?style=for-the-badge)](#curriculum)
 
 </div>
 
@@ -26,15 +26,15 @@
 
 ## Table of Contents
 
-- [Why This Course?](#-why-this-course)
-- [Who Is This For?](#-who-is-this-for)
-- [Prerequisites](#-prerequisites)
-- [How to Use This Course](#-how-to-use-this-course)
-- [Curriculum](#-curriculum)
-- [Project Gallery](#-project-gallery)
-- [Python Best Practices](#-python-best-practices)
-- [Community & Contributing](#-community--contributing)
-- [License](#-license)
+- [Why This Course?](#why-this-course)
+- [Who Is This For?](#who-is-this-for)
+- [Prerequisites](#prerequisites)
+- [How to Use This Course](#how-to-use-this-course)
+- [Curriculum](#curriculum)
+- [Project Gallery](#project-gallery)
+- [Python Best Practices](#python-best-practices)
+- [Community & Contributing](#community--contributing)
+- [License](#license)
 
 ---
 
@@ -314,7 +314,7 @@ This project is licensed under the MIT License. See [LICENSE](./LICENSE) for det
 
 **Built with care for learners everywhere.**
 
-[![Start Day 1](https://img.shields.io/badge/%F0%9F%9A%80%20Begin%20Your%20Journey-Day%2001%20%E2%86%92-FFD43B?style=for-the-badge)](./days/day-01/README.md)
+[![Start Day 1](https://img.shields.io/badge/Begin%20Your%20Journey-Day%2001%20%E2%86%92-C9A24B?style=for-the-badge)](./days/day-01/README.md)
 
 <br/>
 

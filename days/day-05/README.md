@@ -1,8 +1,8 @@
-# Day 05 ⌨️ - User Input
+# <img src="../../assets/icons/day-05.svg" width="34" height="34" align="absmiddle" alt=""> Day 05 - User Input
 
 <div align="center">
 
-| [← Day 04: Previous Lesson](../day-04/README.md) | [🏠 Home](../../README.md) | [Day 06: Next Lesson →](../day-06/README.md) |
+| [← Day 04: Previous Lesson](../day-04/README.md) | [Home](../../README.md) | [Day 06: Next Lesson →](../day-06/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -176,7 +176,7 @@ Before moving on, make sure you can explain:
 
 <div align="center">
 
-| [← Day 04: Previous Lesson](../day-04/README.md) | [🏠 Home](../../README.md) | [Day 06: Next Lesson →](../day-06/README.md) |
+| [← Day 04: Previous Lesson](../day-04/README.md) | [Home](../../README.md) | [Day 06: Next Lesson →](../day-06/README.md) |
 |:---|:---:|---:|
 
 </div>

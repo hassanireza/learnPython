@@ -1,4 +1,4 @@
-# Day 11 🔁 - while Loops
+# Day 11 - while Loops
 
 ---
 

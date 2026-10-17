@@ -24,7 +24,9 @@
   display: none;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 4px;
+  color: var(--text);
   width: 34px;
   height: 34px;
   border-radius: 8px;
@@ -48,16 +50,19 @@
   gap: 0.5rem;
   text-decoration: none;
   color: var(--text);
+  font-family: var(--font-display);
   font-weight: 700;
+  font-size: 1.15rem;
   white-space: nowrap;
 }
 
 .navbar__logo {
-  font-size: 1.5rem;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
 }
 
 .navbar__title em {
-  font-style: normal;
+  font-style: italic;
+  font-weight: 400;
   color: var(--accent);
 }
 
@@ -110,7 +115,7 @@
 
 .navbar__progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, var(--python-blue), var(--python-yellow));
+  background: var(--gold-gradient);
   transition: width 0.3s ease;
 }
 
@@ -129,8 +134,8 @@
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: var(--accent);
-  color: #fff;
+  background: var(--gold-gradient);
+  color: var(--navy-950);
   display: flex;
   align-items: center;
   justify-content: center;

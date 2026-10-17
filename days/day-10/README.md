@@ -1,8 +1,8 @@
-# Day 10 🔄 - for Loops
+# <img src="../../assets/icons/day-10.svg" width="34" height="34" align="absmiddle" alt=""> Day 10 - for Loops
 
 <div align="center">
 
-| [← Day 09: Previous Lesson](../day-09/README.md) | [🏠 Home](../../README.md) | [Day 11: Next Lesson →](../day-11/README.md) |
+| [← Day 09: Previous Lesson](../day-09/README.md) | [Home](../../README.md) | [Day 11: Next Lesson →](../day-11/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -181,7 +181,7 @@ Before moving on, make sure you can explain:
 
 <div align="center">
 
-| [← Day 09: Previous Lesson](../day-09/README.md) | [🏠 Home](../../README.md) | [Day 11: Next Lesson →](../day-11/README.md) |
+| [← Day 09: Previous Lesson](../day-09/README.md) | [Home](../../README.md) | [Day 11: Next Lesson →](../day-11/README.md) |
 |:---|:---:|---:|
 
 </div>

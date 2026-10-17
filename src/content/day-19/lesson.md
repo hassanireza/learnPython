@@ -1,4 +1,4 @@
-# Day 19 📦 - Modules & Packages
+# Day 19 - Modules & Packages
 
 ---
 

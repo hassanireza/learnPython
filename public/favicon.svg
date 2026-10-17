@@ -1,14 +1,5 @@
-<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#387EB8"/>
-      <stop offset="1" stop-color="#366A96"/>
-    </linearGradient>
-    <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFE873"/>
-      <stop offset="1" stop-color="#FFC331"/>
-    </linearGradient>
-  </defs>
-  <path fill="url(#blue)" d="M32 4c-4 0-8 .6-11 1.8-3 1.2-4 2.6-4 4.4v6.6h15v2H10c-3 0-5.6 1.8-6.4 5.2-.9 3.8-.9 6 0 9.8.8 3.4 2.8 5.2 6 5.2h4v-6.4c0-3.4 3-6.4 6.6-6.4h12.4c3 0 5.4-2.4 5.4-5.4v-10c0-2.8-2.4-5-5.2-5.4C29.6 4.9 30.8 4 32 4zm-6.8 4.4a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4z"/>
-  <path fill="url(#yellow)" d="M32 60c4 0 8-.6 11-1.8 3-1.2 4-2.6 4-4.4v-6.6H32v-2h22c3 0 5.6-1.8 6.4-5.2.9-3.8.9-6 0-9.8-.8-3.4-2.8-5.2-6-5.2h-4v6.4c0 3.4-3 6.4-6.6 6.4H31.4c-3 0-5.4 2.4-5.4 5.4v10c0 2.8 2.4 5 5.2 5.4-1-.1-2.2.8-3.4.8zm6.8-4.4a2.2 2.2 0 1 1 0-4.4 2.2 2.2 0 0 1 0 4.4z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Python in 30 Days"><defs><linearGradient id="bm-navy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#18386A"/><stop offset="1" stop-color="#081833"/></linearGradient>
+<linearGradient id="bm-gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EBD596"/><stop offset=".5" stop-color="#C9A24B"/><stop offset="1" stop-color="#A8832F"/></linearGradient></defs><path d="M32 3.5 55 11.5v18.2C55 43.5 45.7 54.3 32 60.5 18.3 54.3 9 43.5 9 29.7V11.5z" fill="url(#bm-navy)" stroke="url(#bm-gold)" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M32 3.5 55 11.5v18.2C55 43.5 45.7 54.3 32 60.5 18.3 54.3 9 43.5 9 29.7V11.5z" transform="translate(32 32) scale(.84) translate(-32 -32)" fill="none" stroke="#C9A24B" stroke-opacity=".45" stroke-width="1"/>
+<path d="M25 44V20h9.5a7 7 0 0 1 0 14H25" fill="none" stroke="url(#bm-gold)" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="36" y="41.6" width="9" height="3.6" rx="1.2" fill="#FAF5E9"/></svg>

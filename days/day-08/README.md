@@ -1,8 +1,8 @@
-# Day 08 📖 - Dictionaries
+# <img src="../../assets/icons/day-08.svg" width="34" height="34" align="absmiddle" alt=""> Day 08 - Dictionaries
 
 <div align="center">
 
-| [← Day 07: Previous Lesson](../day-07/README.md) | [🏠 Home](../../README.md) | [Day 09: Next Lesson →](../day-09/README.md) |
+| [← Day 07: Previous Lesson](../day-07/README.md) | [Home](../../README.md) | [Day 09: Next Lesson →](../day-09/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -198,7 +198,7 @@ Before moving on, make sure you can explain:
 
 <div align="center">
 
-| [← Day 07: Previous Lesson](../day-07/README.md) | [🏠 Home](../../README.md) | [Day 09: Next Lesson →](../day-09/README.md) |
+| [← Day 07: Previous Lesson](../day-07/README.md) | [Home](../../README.md) | [Day 09: Next Lesson →](../day-09/README.md) |
 |:---|:---:|---:|
 
 </div>

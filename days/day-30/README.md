@@ -1,8 +1,8 @@
-# Day 30 🏆 - Final Project: CLI Todo App
+# <img src="../../assets/icons/day-30.svg" width="34" height="34" align="absmiddle" alt=""> Day 30 - Final Project: CLI Todo App
 
 <div align="center">
 
-| [← Day 29: Previous Lesson](../day-29/README.md) | [🏠 Home](../../README.md) | → 🎉 You finished the course! |
+| [← Day 29: Previous Lesson](../day-29/README.md) | [Home](../../README.md) | You finished the course! |
 |:---|:---:|---:|
 
 </div>
@@ -133,7 +133,7 @@ class Task:
 
     @property
     def status_icon(self) -> str:
-        return "✓" if self.done else "○"
+        return "x" if self.done else " "
 
     @property
     def priority_icon(self) -> str:
@@ -393,7 +393,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 29: Previous Lesson](../day-29/README.md) | [🏠 Home](../../README.md) | → 🎉 You finished the course! |
+| [← Day 29: Previous Lesson](../day-29/README.md) | [Home](../../README.md) | You finished the course! |
 |:---|:---:|---:|
 
 </div>

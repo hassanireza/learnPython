@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { CURRICULUM, TOPICS } from '../data/curriculum'
 import { useProgress } from '../context/ProgressContext'
+import { DayIcon, Icon } from './icons/Icon'
 import './Sidebar.css'
 
 interface SidebarProps {
@@ -34,10 +35,11 @@ export default function Sidebar({ open, onNavigate }: SidebarProps) {
                 className={({ isActive }) => `sidebar__item ${isActive ? 'sidebar__item--active' : ''}`}
               >
                 <span className="sidebar__item-check" aria-hidden>
-                  {isComplete(day.id) ? '✓' : day.id}
+                  {isComplete(day.id) ? <Icon name="check" size={13} /> : day.id}
                 </span>
                 <span className="sidebar__item-label">
-                  <span className="sidebar__item-emoji">{day.emoji}</span> {day.title}
+                  <DayIcon day={day.id} size={17} className="sidebar__item-icon" />
+                  {day.title}
                 </span>
               </NavLink>
             ))}

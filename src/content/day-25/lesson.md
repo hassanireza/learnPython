@@ -1,4 +1,4 @@
-# Day 25 🔒 - Context Managers
+# Day 25 - Context Managers
 
 ---
 

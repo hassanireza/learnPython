@@ -1,4 +1,4 @@
-# Day 20 🏗️ - OOP: Classes & Objects
+# Day 20 - OOP: Classes & Objects
 
 ---
 

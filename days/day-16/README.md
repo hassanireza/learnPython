@@ -1,8 +1,8 @@
-# Day 16 📁 - File I/O
+# <img src="../../assets/icons/day-16.svg" width="34" height="34" align="absmiddle" alt=""> Day 16 - File I/O
 
 <div align="center">
 
-| [← Day 15: Previous Lesson](../day-15/README.md) | [🏠 Home](../../README.md) | [Day 17: Next Lesson →](../day-17/README.md) |
+| [← Day 15: Previous Lesson](../day-15/README.md) | [Home](../../README.md) | [Day 17: Next Lesson →](../day-17/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -190,7 +190,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 15: Previous Lesson](../day-15/README.md) | [🏠 Home](../../README.md) | [Day 17: Next Lesson →](../day-17/README.md) |
+| [← Day 15: Previous Lesson](../day-15/README.md) | [Home](../../README.md) | [Day 17: Next Lesson →](../day-17/README.md) |
 |:---|:---:|---:|
 
 </div>

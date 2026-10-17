@@ -1,9 +1,11 @@
+import BrandMark from './BrandMark'
 import './Footer.css'
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__inner">
+        <BrandMark size={28} />
         <p>
           Python in 30 Days is a free, open source, interactive learning platform. Built with React,
           TypeScript and Vite.

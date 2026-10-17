@@ -1,4 +1,4 @@
-# Day 07 🎯 - Tuples, Sets & Booleans
+# Day 07 - Tuples, Sets & Booleans
 
 ---
 

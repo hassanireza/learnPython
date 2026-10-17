@@ -1,4 +1,4 @@
-# Day 30 🏆 - Final Project: CLI Todo App
+# Day 30 - Final Project: CLI Todo App
 
 ---
 
@@ -125,7 +125,7 @@ class Task:
 
     @property
     def status_icon(self) -> str:
-        return "✓" if self.done else "○"
+        return "x" if self.done else " "
 
     @property
     def priority_icon(self) -> str:

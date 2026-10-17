@@ -1,4 +1,4 @@
-# Day 18 🗃️ - Lambda, Map, Filter & Sorted
+# Day 18 - Lambda, Map, Filter & Sorted
 
 ---
 

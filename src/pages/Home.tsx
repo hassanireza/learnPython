@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { CURRICULUM, TOPICS } from '../data/curriculum'
 import { useProgress } from '../context/ProgressContext'
+import { DayTile, Icon } from '../components/icons/Icon'
 import './Home.css'
 
 export default function Home() {
@@ -10,10 +11,10 @@ export default function Home() {
     <div className="home">
       <section className="hero">
         <div className="hero__badges">
-          <span className="badge">30 Lessons</span>
-          <span className="badge">30 Projects</span>
-          <span className="badge">No Login Required</span>
-          <span className="badge">Free Forever</span>
+          <span className="badge"><Icon name="book-open" size={14} />30 Lessons</span>
+          <span className="badge"><Icon name="code" size={14} />30 Projects</span>
+          <span className="badge"><Icon name="unlock" size={14} />No Login Required</span>
+          <span className="badge"><Icon name="infinity" size={14} />Free Forever</span>
         </div>
         <h1>
           Learn Python in <span className="hero__accent">30 Days</span>
@@ -25,8 +26,10 @@ export default function Home() {
         <div className="hero__actions">
           <Link to="/day/1" className="btn btn--primary">
             Start Day 1
+            <Icon name="arrow-right" size={16} />
           </Link>
           <Link to="/certificate" className="btn btn--ghost">
+            <Icon name="award" size={16} />
             Get your certificate
           </Link>
         </div>
@@ -69,10 +72,16 @@ export default function Home() {
                 <Link key={day.id} to={`/day/${day.id}`} className="day-card">
                   <div className="day-card__top">
                     <span className="day-card__number">Day {String(day.id).padStart(2, '0')}</span>
-                    {isComplete(day.id) && <span className="day-card__done">Done</span>}
+                    {isComplete(day.id) && (
+                      <span className="day-card__done">
+                        <Icon name="check" size={11} />
+                        Done
+                      </span>
+                    )}
                   </div>
                   <div className="day-card__title">
-                    <span className="day-card__emoji">{day.emoji}</span> {day.title}
+                    <DayTile day={day.id} size={34} />
+                    <span>{day.title}</span>
                   </div>
                 </Link>
               ))}

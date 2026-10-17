@@ -1,8 +1,8 @@
-# Day 21 🧬 - OOP: Inheritance & Polymorphism
+# <img src="../../assets/icons/day-21.svg" width="34" height="34" align="absmiddle" alt=""> Day 21 - OOP: Inheritance & Polymorphism
 
 <div align="center">
 
-| [← Day 20: Previous Lesson](../day-20/README.md) | [🏠 Home](../../README.md) | [Day 22: Next Lesson →](../day-22/README.md) |
+| [← Day 20: Previous Lesson](../day-20/README.md) | [Home](../../README.md) | [Day 22: Next Lesson →](../day-22/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -247,7 +247,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 20: Previous Lesson](../day-20/README.md) | [🏠 Home](../../README.md) | [Day 22: Next Lesson →](../day-22/README.md) |
+| [← Day 20: Previous Lesson](../day-20/README.md) | [Home](../../README.md) | [Day 22: Next Lesson →](../day-22/README.md) |
 |:---|:---:|---:|
 
 </div>

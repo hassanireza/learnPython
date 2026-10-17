@@ -1,4 +1,4 @@
-# Day 10 🔄 - for Loops
+# Day 10 - for Loops
 
 ---
 

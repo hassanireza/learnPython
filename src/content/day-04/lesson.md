@@ -1,4 +1,4 @@
-# Day 04 🔢 - Numbers & Math Operations
+# Day 04 - Numbers & Math Operations
 
 ---
 
@@ -142,7 +142,7 @@ def main() -> None:
         choice = input("\nYour choice: ").strip().lower()
 
         if choice == "q":
-            print("\nGoodbye! Keep calculating. 🔢")
+            print("\nGoodbye! Keep calculating.")
             break
 
         if choice not in operations:

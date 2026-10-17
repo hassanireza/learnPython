@@ -1,4 +1,4 @@
-# Day 09 🔀 - Conditionals
+# Day 09 - Conditionals
 
 ---
 

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="64" height="64" role="img" aria-label="Day 4">
+<defs><linearGradient id="t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16345F"/><stop offset="1" stop-color="#081833"/></linearGradient></defs>
+<rect x=".75" y=".75" width="46.5" height="46.5" rx="11" fill="url(#t)" stroke="#C9A24B" stroke-opacity=".55" stroke-width="1.5"/>
+<g transform="translate(10 10) scale(1.1667)" fill="none" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+<g stroke="#FAF5E9"><path d="M6.5 4.5v5M4 7h5"/><path d="M15 7h5"/><path d="M4.8 15.3l4.4 4.4M9.2 15.3l-4.4 4.4"/></g><g stroke="#DDBE6B"><path d="M15 17.5h5"/><circle cx="17.5" cy="14.6" r=".7"/><circle cx="17.5" cy="20.4" r=".7"/></g></g>
+</svg>

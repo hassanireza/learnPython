@@ -1,8 +1,8 @@
-# Day 12 ⚙️ - Functions Basics
+# <img src="../../assets/icons/day-12.svg" width="34" height="34" align="absmiddle" alt=""> Day 12 - Functions Basics
 
 <div align="center">
 
-| [← Day 11: Previous Lesson](../day-11/README.md) | [🏠 Home](../../README.md) | [Day 13: Next Lesson →](../day-13/README.md) |
+| [← Day 11: Previous Lesson](../day-11/README.md) | [Home](../../README.md) | [Day 13: Next Lesson →](../day-13/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -214,7 +214,7 @@ Before moving on, make sure you can explain:
 
 <div align="center">
 
-| [← Day 11: Previous Lesson](../day-11/README.md) | [🏠 Home](../../README.md) | [Day 13: Next Lesson →](../day-13/README.md) |
+| [← Day 11: Previous Lesson](../day-11/README.md) | [Home](../../README.md) | [Day 13: Next Lesson →](../day-13/README.md) |
 |:---|:---:|---:|
 
 </div>
