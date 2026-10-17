@@ -1,4 +1,4 @@
-# Day 03 ✍️ - Strings & String Methods
+# Day 03 - Strings & String Methods
 
 ---
 

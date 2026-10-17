@@ -1,6 +1,8 @@
 import { Link, NavLink } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { useProgress } from '../context/ProgressContext'
+import BrandMark from './BrandMark'
+import { Icon } from './icons/Icon'
 import './Navbar.css'
 
 export default function Navbar({ onMenuClick }: { onMenuClick: () => void }) {
@@ -11,12 +13,10 @@ export default function Navbar({ onMenuClick }: { onMenuClick: () => void }) {
     <header className="navbar">
       <div className="navbar__left">
         <button className="navbar__menu-btn" onClick={onMenuClick} aria-label="Toggle curriculum menu">
-          <span />
-          <span />
-          <span />
+          <Icon name="menu" size={20} />
         </button>
         <Link to="/" className="navbar__brand">
-          <span className="navbar__logo">🐍</span>
+          <BrandMark size={34} className="navbar__logo" />
           <span className="navbar__title">
             Python <em>in 30 Days</em>
           </span>
@@ -48,15 +48,18 @@ export default function Navbar({ onMenuClick }: { onMenuClick: () => void }) {
             <span className="navbar__avatar">{user.name.charAt(0).toUpperCase()}</span>
             <span className="navbar__username">{user.name}</span>
             <button className="btn btn--ghost btn--sm" onClick={logout}>
+              <Icon name="log-out" size={15} />
               Log out
             </button>
           </div>
         ) : (
           <div className="navbar__auth">
             <Link to="/login" className="btn btn--ghost btn--sm">
+              <Icon name="log-in" size={15} />
               Log in
             </Link>
             <Link to="/signup" className="btn btn--primary btn--sm">
+              <Icon name="user-plus" size={15} />
               Sign up
             </Link>
           </div>

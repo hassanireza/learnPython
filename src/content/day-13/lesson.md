@@ -1,4 +1,4 @@
-# Day 13 🎛️ - Function Arguments & Type Hints
+# Day 13 - Function Arguments & Type Hints
 
 ---
 

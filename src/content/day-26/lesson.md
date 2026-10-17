@@ -1,4 +1,4 @@
-# Day 26 🔍 - Regular Expressions
+# Day 26 - Regular Expressions
 
 ---
 

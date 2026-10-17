@@ -1,4 +1,4 @@
-# Day 14 🔭 - Scope & Closures
+# Day 14 - Scope & Closures
 
 ---
 

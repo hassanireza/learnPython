@@ -1,4 +1,4 @@
-# Day 02 📦 - Variables & Data Types
+# Day 02 - Variables & Data Types
 
 ---
 

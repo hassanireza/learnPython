@@ -1,4 +1,4 @@
-# Day 15 🛡️ - Error Handling
+# Day 15 - Error Handling
 
 ---
 

@@ -1,4 +1,4 @@
-# Day 01 🐍 - Setup & Hello World
+# Day 01 - Setup & Hello World
 
 ---
 
@@ -99,7 +99,7 @@ print(f"  Occupation  : {occupation}")
 print(f"  Fun Fact    : {fun_fact}")
 print(f"  Fav Language: {favorite_language}")
 print("=" * 45)
-print("  Happy coding! 🐍")
+print("  Happy coding!")
 print("=" * 45)
 ```
 

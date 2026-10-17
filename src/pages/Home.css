@@ -18,12 +18,12 @@
 }
 
 .hero h1 {
-  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-size: clamp(2.3rem, 5vw, 3.4rem);
   margin: 0 0 1rem;
 }
 
 .hero__accent {
-  background: linear-gradient(135deg, var(--python-blue), var(--python-yellow));
+  background: var(--gold-gradient);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -71,7 +71,8 @@
 .stats__value {
   display: block;
   font-size: 1.8rem;
-  font-weight: 800;
+  font-family: var(--font-display);
+  font-weight: 700;
   color: var(--accent-strong);
 }
 
@@ -147,12 +148,18 @@
   font-size: 0.68rem;
   font-weight: 700;
   color: var(--success);
-  background: rgba(76, 175, 125, 0.12);
+  background: rgba(92, 194, 156, 0.12);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
   padding: 0.1rem 0.5rem;
   border-radius: 999px;
 }
 
 .day-card__title {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
   font-weight: 600;
   font-size: 0.95rem;
 }

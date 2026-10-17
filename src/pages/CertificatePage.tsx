@@ -1,17 +1,15 @@
 import { useRef, useState } from 'react'
 import { useAuth } from '../context/AuthContext'
 import { useProgress } from '../context/ProgressContext'
-import Certificate from '../components/Certificate'
+import Certificate, { CERT_HEIGHT, CERT_WIDTH } from '../components/Certificate'
+import { Icon } from '../components/icons/Icon'
 import './CertificatePage.css'
-
-function todayLabel() {
-  return new Date().toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
-}
 
 export default function CertificatePage() {
   const { user } = useAuth()
   const { completedCount, percentComplete } = useProgress()
   const [name, setName] = useState(user?.name ?? '')
+  const [issuedAt] = useState(() => new Date())
   const svgRef = useRef<SVGSVGElement | null>(null)
 
   function downloadPng() {
@@ -26,8 +24,8 @@ export default function CertificatePage() {
     const img = new Image()
     img.onload = () => {
       const canvas = document.createElement('canvas')
-      canvas.width = 2000
-      canvas.height = 1400
+      canvas.width = CERT_WIDTH * 2
+      canvas.height = CERT_HEIGHT * 2
       const ctx = canvas.getContext('2d')
       if (!ctx) return
       ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
@@ -72,7 +70,12 @@ export default function CertificatePage() {
             />
           </label>
           <button className="btn btn--primary btn--block" onClick={downloadPng}>
+            <Icon name="download" size={16} />
             Download PNG certificate
+          </button>
+          <button className="btn btn--ghost btn--block" onClick={() => window.print()}>
+            <Icon name="printer" size={16} />
+            Print certificate
           </button>
           <p className="certificate-page__hint">
             The certificate updates live as you type. Download it as a PNG image you can print, share or
@@ -80,8 +83,8 @@ export default function CertificatePage() {
           </p>
         </div>
 
-        <div className="card certificate-page__preview">
-          <Certificate ref={svgRef} name={name} date={todayLabel()} />
+        <div className="card certificate-page__preview certificate-print-area">
+          <Certificate ref={svgRef} name={name} issuedAt={issuedAt} />
         </div>
       </div>
     </div>

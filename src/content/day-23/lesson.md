@@ -1,4 +1,4 @@
-# Day 23 🎀 - Decorators
+# Day 23 - Decorators
 
 ---
 

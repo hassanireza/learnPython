@@ -1,4 +1,4 @@
-# Day 12 ⚙️ - Functions Basics
+# Day 12 - Functions Basics
 
 ---
 

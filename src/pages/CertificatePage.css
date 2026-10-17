@@ -77,3 +77,43 @@
     position: static;
   }
 }
+
+.certificate-page__preview {
+  background: var(--navy-900);
+  padding: 1.25rem;
+}
+
+.certificate-page__preview svg {
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.55);
+}
+
+.certificate-page__intro h1 {
+  font-size: 2rem;
+}
+
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+  body * {
+    visibility: hidden;
+  }
+  .certificate-print-area,
+  .certificate-print-area * {
+    visibility: visible;
+  }
+  .certificate-print-area {
+    position: fixed;
+    inset: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: #fff;
+  }
+  .certificate-print-area svg {
+    width: 100vw !important;
+    height: 100vh !important;
+    box-shadow: none;
+  }
+}

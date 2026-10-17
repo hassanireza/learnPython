@@ -1,4 +1,4 @@
-# Day 29 🧪 - Testing with pytest
+# Day 29 - Testing with pytest
 
 ---
 

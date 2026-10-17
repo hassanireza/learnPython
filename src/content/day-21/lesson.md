@@ -1,4 +1,4 @@
-# Day 21 🧬 - OOP: Inheritance & Polymorphism
+# Day 21 - OOP: Inheritance & Polymorphism
 
 ---
 

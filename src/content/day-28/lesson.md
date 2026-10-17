@@ -1,4 +1,4 @@
-# Day 28 🌐 - Working with APIs
+# Day 28 - Working with APIs
 
 ---
 
@@ -130,11 +130,11 @@ def display_weather(city_name: str, data: dict) -> None:
     code      = int(cw["weathercode"])
     condition = WMO_CODES.get(code, "Unknown")
     is_day    = cw.get("is_day", 1)
-    icon      = "☀️" if is_day and code == 0 else "⛈️" if code >= 95 else "🌧️" if 60 <= code < 70 else "🌤️"
+    sky       = "CLEAR" if is_day and code == 0 else "STORM" if code >= 95 else "RAIN" if 60 <= code < 70 else "CLOUDY"
 
     print(f"""
   ╔══════════════════════════════════════╗
-  {icon}  {city_name}
+  [{sky}]  {city_name}
   ╠══════════════════════════════════════╣
     Condition   : {condition}
     Temperature : {temp_c}°C  /  {temp_f:.1f}°F

@@ -1,4 +1,4 @@
-# Day 17 ⚡ - List Comprehensions
+# Day 17 - List Comprehensions
 
 ---
 

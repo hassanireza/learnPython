@@ -38,6 +38,13 @@
   font-size: 1.8rem;
 }
 
+.lesson-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
 .day-page__lesson h2 {
   font-size: 1.3rem;
   margin-top: 2rem;
@@ -166,6 +173,13 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--text-faint);
+}
+
+.day-page__nav-title--icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent);
 }
 
 .day-page__nav-title {

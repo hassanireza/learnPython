@@ -1,4 +1,4 @@
-# Day 06 📋 - Lists
+# Day 06 - Lists
 
 ---
 

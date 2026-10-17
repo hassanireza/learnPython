@@ -34,7 +34,7 @@
 
 .sidebar__summary-fill {
   height: 100%;
-  background: linear-gradient(90deg, var(--python-blue), var(--python-yellow));
+  background: var(--gold-gradient);
 }
 
 .sidebar__group-title {
@@ -84,11 +84,14 @@
 }
 
 .sidebar__item--active .sidebar__item-check {
-  background: var(--accent);
-  color: #fff;
+  background: var(--gold-gradient);
+  color: var(--navy-950);
 }
 
 .sidebar__item-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

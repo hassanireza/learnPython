@@ -1,6 +1,7 @@
 import { FormEvent, useState } from 'react'
 import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
+import { Icon } from '../components/icons/Icon'
 import './Auth.css'
 
 export default function Login() {
@@ -26,7 +27,10 @@ export default function Login() {
     <div className="auth">
       <div className="auth__card card">
         <div className="auth__notice">
+          <Icon name="info" size={16} />
+          <span>
           This is a showcase login. All lessons and the certificate are available without an account.
+          </span>
         </div>
         <h1>Welcome back</h1>
         <p className="auth__sub">Log in to see a personalized greeting. Nothing else changes.</p>

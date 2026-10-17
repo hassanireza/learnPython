@@ -1,4 +1,4 @@
-# Day 24 ♾️ - Generators & Iterators
+# Day 24 - Generators & Iterators
 
 ---
 

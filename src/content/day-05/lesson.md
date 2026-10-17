@@ -1,4 +1,4 @@
-# Day 05 ⌨️ - User Input
+# Day 05 - User Input
 
 ---
 
