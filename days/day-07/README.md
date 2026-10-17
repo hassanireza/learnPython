@@ -1,8 +1,8 @@
-# Day 07 🎯 - Tuples, Sets & Booleans
+# <img src="../../assets/icons/day-07.svg" width="34" height="34" align="absmiddle" alt=""> Day 07 - Tuples, Sets & Booleans
 
 <div align="center">
 
-| [← Day 06: Previous Lesson](../day-06/README.md) | [🏠 Home](../../README.md) | [Day 08: Next Lesson →](../day-08/README.md) |
+| [← Day 06: Previous Lesson](../day-06/README.md) | [Home](../../README.md) | [Day 08: Next Lesson →](../day-08/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -193,7 +193,7 @@ Before moving on, make sure you can explain:
 
 <div align="center">
 
-| [← Day 06: Previous Lesson](../day-06/README.md) | [🏠 Home](../../README.md) | [Day 08: Next Lesson →](../day-08/README.md) |
+| [← Day 06: Previous Lesson](../day-06/README.md) | [Home](../../README.md) | [Day 08: Next Lesson →](../day-08/README.md) |
 |:---|:---:|---:|
 
 </div>

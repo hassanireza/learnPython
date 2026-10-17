@@ -1,8 +1,8 @@
-# Day 03 ✍️ - Strings & String Methods
+# <img src="../../assets/icons/day-03.svg" width="34" height="34" align="absmiddle" alt=""> Day 03 - Strings & String Methods
 
 <div align="center">
 
-| [← Day 02: Previous Lesson](../day-02/README.md) | [🏠 Home](../../README.md) | [Day 04: Next Lesson →](../day-04/README.md) |
+| [← Day 02: Previous Lesson](../day-02/README.md) | [Home](../../README.md) | [Day 04: Next Lesson →](../day-04/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -193,7 +193,7 @@ if True:
 
 <div align="center">
 
-| [← Day 02: Previous Lesson](../day-02/README.md) | [🏠 Home](../../README.md) | [Day 04: Next Lesson →](../day-04/README.md) |
+| [← Day 02: Previous Lesson](../day-02/README.md) | [Home](../../README.md) | [Day 04: Next Lesson →](../day-04/README.md) |
 |:---|:---:|---:|
 
 </div>

@@ -1,8 +1,8 @@
-# Day 01 🐍 - Setup & Hello World
+# <img src="../../assets/icons/day-01.svg" width="34" height="34" align="absmiddle" alt=""> Day 01 - Setup & Hello World
 
 <div align="center">
 
-| ← This is the first lesson | [🏠 Home](../../README.md) | [Day 02: Next Lesson →](../day-02/README.md) |
+| ← This is the first lesson | [Home](../../README.md) | [Day 02: Next Lesson →](../day-02/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -106,7 +106,7 @@ print(f"  Occupation  : {occupation}")
 print(f"  Fun Fact    : {fun_fact}")
 print(f"  Fav Language: {favorite_language}")
 print("=" * 45)
-print("  Happy coding! 🐍")
+print("  Happy coding!")
 print("=" * 45)
 ```
 
@@ -142,7 +142,7 @@ if True:
 
 <div align="center">
 
-| ← This is the first lesson | [🏠 Home](../../README.md) | [Day 02: Next Lesson →](../day-02/README.md) |
+| ← This is the first lesson | [Home](../../README.md) | [Day 02: Next Lesson →](../day-02/README.md) |
 |:---|:---:|---:|
 
 </div>

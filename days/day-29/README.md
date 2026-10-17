@@ -1,8 +1,8 @@
-# Day 29 🧪 - Testing with pytest
+# <img src="../../assets/icons/day-29.svg" width="34" height="34" align="absmiddle" alt=""> Day 29 - Testing with pytest
 
 <div align="center">
 
-| [← Day 28: Previous Lesson](../day-28/README.md) | [🏠 Home](../../README.md) | [Day 30: Next Lesson →](../day-30/README.md) |
+| [← Day 28: Previous Lesson](../day-28/README.md) | [Home](../../README.md) | [Day 30: Next Lesson →](../day-30/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -292,7 +292,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 28: Previous Lesson](../day-28/README.md) | [🏠 Home](../../README.md) | [Day 30: Next Lesson →](../day-30/README.md) |
+| [← Day 28: Previous Lesson](../day-28/README.md) | [Home](../../README.md) | [Day 30: Next Lesson →](../day-30/README.md) |
 |:---|:---:|---:|
 
 </div>

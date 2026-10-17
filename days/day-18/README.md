@@ -1,8 +1,8 @@
-# Day 18 🗃️ - Lambda, Map, Filter & Sorted
+# <img src="../../assets/icons/day-18.svg" width="34" height="34" align="absmiddle" alt=""> Day 18 - Lambda, Map, Filter & Sorted
 
 <div align="center">
 
-| [← Day 17: Previous Lesson](../day-17/README.md) | [🏠 Home](../../README.md) | [Day 19: Next Lesson →](../day-19/README.md) |
+| [← Day 17: Previous Lesson](../day-17/README.md) | [Home](../../README.md) | [Day 19: Next Lesson →](../day-19/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -160,7 +160,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 17: Previous Lesson](../day-17/README.md) | [🏠 Home](../../README.md) | [Day 19: Next Lesson →](../day-19/README.md) |
+| [← Day 17: Previous Lesson](../day-17/README.md) | [Home](../../README.md) | [Day 19: Next Lesson →](../day-19/README.md) |
 |:---|:---:|---:|
 
 </div>

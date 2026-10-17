@@ -1,8 +1,8 @@
-# Day 04 🔢 - Numbers & Math Operations
+# <img src="../../assets/icons/day-04.svg" width="34" height="34" align="absmiddle" alt=""> Day 04 - Numbers & Math Operations
 
 <div align="center">
 
-| [← Day 03: Previous Lesson](../day-03/README.md) | [🏠 Home](../../README.md) | [Day 05: Next Lesson →](../day-05/README.md) |
+| [← Day 03: Previous Lesson](../day-03/README.md) | [Home](../../README.md) | [Day 05: Next Lesson →](../day-05/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -156,7 +156,7 @@ def main() -> None:
         choice = input("\nYour choice: ").strip().lower()
 
         if choice == "q":
-            print("\nGoodbye! Keep calculating. 🔢")
+            print("\nGoodbye! Keep calculating.")
             break
 
         if choice not in operations:
@@ -215,7 +215,7 @@ if True:
 
 <div align="center">
 
-| [← Day 03: Previous Lesson](../day-03/README.md) | [🏠 Home](../../README.md) | [Day 05: Next Lesson →](../day-05/README.md) |
+| [← Day 03: Previous Lesson](../day-03/README.md) | [Home](../../README.md) | [Day 05: Next Lesson →](../day-05/README.md) |
 |:---|:---:|---:|
 
 </div>

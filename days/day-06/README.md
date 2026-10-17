@@ -1,8 +1,8 @@
-# Day 06 📋 - Lists
+# <img src="../../assets/icons/day-06.svg" width="34" height="34" align="absmiddle" alt=""> Day 06 - Lists
 
 <div align="center">
 
-| [← Day 05: Previous Lesson](../day-05/README.md) | [🏠 Home](../../README.md) | [Day 07: Next Lesson →](../day-07/README.md) |
+| [← Day 05: Previous Lesson](../day-05/README.md) | [Home](../../README.md) | [Day 07: Next Lesson →](../day-07/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -186,7 +186,7 @@ Before moving on, make sure you can explain:
 
 <div align="center">
 
-| [← Day 05: Previous Lesson](../day-05/README.md) | [🏠 Home](../../README.md) | [Day 07: Next Lesson →](../day-07/README.md) |
+| [← Day 05: Previous Lesson](../day-05/README.md) | [Home](../../README.md) | [Day 07: Next Lesson →](../day-07/README.md) |
 |:---|:---:|---:|
 
 </div>

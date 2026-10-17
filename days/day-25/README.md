@@ -1,8 +1,8 @@
-# Day 25 🔒 - Context Managers
+# <img src="../../assets/icons/day-25.svg" width="34" height="34" align="absmiddle" alt=""> Day 25 - Context Managers
 
 <div align="center">
 
-| [← Day 24: Previous Lesson](../day-24/README.md) | [🏠 Home](../../README.md) | [Day 26: Next Lesson →](../day-26/README.md) |
+| [← Day 24: Previous Lesson](../day-24/README.md) | [Home](../../README.md) | [Day 26: Next Lesson →](../day-26/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -214,7 +214,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 24: Previous Lesson](../day-24/README.md) | [🏠 Home](../../README.md) | [Day 26: Next Lesson →](../day-26/README.md) |
+| [← Day 24: Previous Lesson](../day-24/README.md) | [Home](../../README.md) | [Day 26: Next Lesson →](../day-26/README.md) |
 |:---|:---:|---:|
 
 </div>

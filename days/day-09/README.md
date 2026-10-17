@@ -1,8 +1,8 @@
-# Day 09 🔀 - Conditionals
+# <img src="../../assets/icons/day-09.svg" width="34" height="34" align="absmiddle" alt=""> Day 09 - Conditionals
 
 <div align="center">
 
-| [← Day 08: Previous Lesson](../day-08/README.md) | [🏠 Home](../../README.md) | [Day 10: Next Lesson →](../day-10/README.md) |
+| [← Day 08: Previous Lesson](../day-08/README.md) | [Home](../../README.md) | [Day 10: Next Lesson →](../day-10/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -169,7 +169,7 @@ Before moving on, make sure you can explain:
 
 <div align="center">
 
-| [← Day 08: Previous Lesson](../day-08/README.md) | [🏠 Home](../../README.md) | [Day 10: Next Lesson →](../day-10/README.md) |
+| [← Day 08: Previous Lesson](../day-08/README.md) | [Home](../../README.md) | [Day 10: Next Lesson →](../day-10/README.md) |
 |:---|:---:|---:|
 
 </div>

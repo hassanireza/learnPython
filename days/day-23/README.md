@@ -1,8 +1,8 @@
-# Day 23 🎀 - Decorators
+# <img src="../../assets/icons/day-23.svg" width="34" height="34" align="absmiddle" alt=""> Day 23 - Decorators
 
 <div align="center">
 
-| [← Day 22: Previous Lesson](../day-22/README.md) | [🏠 Home](../../README.md) | [Day 24: Next Lesson →](../day-24/README.md) |
+| [← Day 22: Previous Lesson](../day-22/README.md) | [Home](../../README.md) | [Day 24: Next Lesson →](../day-24/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -238,7 +238,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 22: Previous Lesson](../day-22/README.md) | [🏠 Home](../../README.md) | [Day 24: Next Lesson →](../day-24/README.md) |
+| [← Day 22: Previous Lesson](../day-22/README.md) | [Home](../../README.md) | [Day 24: Next Lesson →](../day-24/README.md) |
 |:---|:---:|---:|
 
 </div>

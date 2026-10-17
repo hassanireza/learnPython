@@ -1,8 +1,8 @@
-# Day 17 ⚡ - List Comprehensions
+# <img src="../../assets/icons/day-17.svg" width="34" height="34" align="absmiddle" alt=""> Day 17 - List Comprehensions
 
 <div align="center">
 
-| [← Day 16: Previous Lesson](../day-16/README.md) | [🏠 Home](../../README.md) | [Day 18: Next Lesson →](../day-18/README.md) |
+| [← Day 16: Previous Lesson](../day-16/README.md) | [Home](../../README.md) | [Day 18: Next Lesson →](../day-18/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -176,7 +176,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 16: Previous Lesson](../day-16/README.md) | [🏠 Home](../../README.md) | [Day 18: Next Lesson →](../day-18/README.md) |
+| [← Day 16: Previous Lesson](../day-16/README.md) | [Home](../../README.md) | [Day 18: Next Lesson →](../day-18/README.md) |
 |:---|:---:|---:|
 
 </div>

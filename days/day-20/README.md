@@ -1,8 +1,8 @@
-# Day 20 🏗️ - OOP: Classes & Objects
+# <img src="../../assets/icons/day-20.svg" width="34" height="34" align="absmiddle" alt=""> Day 20 - OOP: Classes & Objects
 
 <div align="center">
 
-| [← Day 19: Previous Lesson](../day-19/README.md) | [🏠 Home](../../README.md) | [Day 21: Next Lesson →](../day-21/README.md) |
+| [← Day 19: Previous Lesson](../day-19/README.md) | [Home](../../README.md) | [Day 21: Next Lesson →](../day-21/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -205,7 +205,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 19: Previous Lesson](../day-19/README.md) | [🏠 Home](../../README.md) | [Day 21: Next Lesson →](../day-21/README.md) |
+| [← Day 19: Previous Lesson](../day-19/README.md) | [Home](../../README.md) | [Day 21: Next Lesson →](../day-21/README.md) |
 |:---|:---:|---:|
 
 </div>

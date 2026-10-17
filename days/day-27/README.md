@@ -1,8 +1,8 @@
-# Day 27 📊 - JSON & CSV Data
+# <img src="../../assets/icons/day-27.svg" width="34" height="34" align="absmiddle" alt=""> Day 27 - JSON & CSV Data
 
 <div align="center">
 
-| [← Day 26: Previous Lesson](../day-26/README.md) | [🏠 Home](../../README.md) | [Day 28: Next Lesson →](../day-28/README.md) |
+| [← Day 26: Previous Lesson](../day-26/README.md) | [Home](../../README.md) | [Day 28: Next Lesson →](../day-28/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -193,7 +193,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 26: Previous Lesson](../day-26/README.md) | [🏠 Home](../../README.md) | [Day 28: Next Lesson →](../day-28/README.md) |
+| [← Day 26: Previous Lesson](../day-26/README.md) | [Home](../../README.md) | [Day 28: Next Lesson →](../day-28/README.md) |
 |:---|:---:|---:|
 
 </div>

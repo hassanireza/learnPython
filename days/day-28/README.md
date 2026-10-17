@@ -1,8 +1,8 @@
-# Day 28 🌐 - Working with APIs
+# <img src="../../assets/icons/day-28.svg" width="34" height="34" align="absmiddle" alt=""> Day 28 - Working with APIs
 
 <div align="center">
 
-| [← Day 27: Previous Lesson](../day-27/README.md) | [🏠 Home](../../README.md) | [Day 29: Next Lesson →](../day-29/README.md) |
+| [← Day 27: Previous Lesson](../day-27/README.md) | [Home](../../README.md) | [Day 29: Next Lesson →](../day-29/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -143,11 +143,11 @@ def display_weather(city_name: str, data: dict) -> None:
     code      = int(cw["weathercode"])
     condition = WMO_CODES.get(code, "Unknown")
     is_day    = cw.get("is_day", 1)
-    icon      = "☀️" if is_day and code == 0 else "⛈️" if code >= 95 else "🌧️" if 60 <= code < 70 else "🌤️"
+    sky       = "CLEAR" if is_day and code == 0 else "STORM" if code >= 95 else "RAIN" if 60 <= code < 70 else "CLOUDY"
 
     print(f"""
   ╔══════════════════════════════════════╗
-  {icon}  {city_name}
+  [{sky}]  {city_name}
   ╠══════════════════════════════════════╣
     Condition   : {condition}
     Temperature : {temp_c}°C  /  {temp_f:.1f}°F
@@ -187,7 +187,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 27: Previous Lesson](../day-27/README.md) | [🏠 Home](../../README.md) | [Day 29: Next Lesson →](../day-29/README.md) |
+| [← Day 27: Previous Lesson](../day-27/README.md) | [Home](../../README.md) | [Day 29: Next Lesson →](../day-29/README.md) |
 |:---|:---:|---:|
 
 </div>

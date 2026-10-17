@@ -1,8 +1,8 @@
-# Day 11 🔁 - while Loops
+# <img src="../../assets/icons/day-11.svg" width="34" height="34" align="absmiddle" alt=""> Day 11 - while Loops
 
 <div align="center">
 
-| [← Day 10: Previous Lesson](../day-10/README.md) | [🏠 Home](../../README.md) | [Day 12: Next Lesson →](../day-12/README.md) |
+| [← Day 10: Previous Lesson](../day-10/README.md) | [Home](../../README.md) | [Day 12: Next Lesson →](../day-12/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -199,7 +199,7 @@ Before moving on, make sure you can explain:
 
 <div align="center">
 
-| [← Day 10: Previous Lesson](../day-10/README.md) | [🏠 Home](../../README.md) | [Day 12: Next Lesson →](../day-12/README.md) |
+| [← Day 10: Previous Lesson](../day-10/README.md) | [Home](../../README.md) | [Day 12: Next Lesson →](../day-12/README.md) |
 |:---|:---:|---:|
 
 </div>

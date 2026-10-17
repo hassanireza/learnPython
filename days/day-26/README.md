@@ -1,8 +1,8 @@
-# Day 26 🔍 - Regular Expressions
+# <img src="../../assets/icons/day-26.svg" width="34" height="34" align="absmiddle" alt=""> Day 26 - Regular Expressions
 
 <div align="center">
 
-| [← Day 25: Previous Lesson](../day-25/README.md) | [🏠 Home](../../README.md) | [Day 27: Next Lesson →](../day-27/README.md) |
+| [← Day 25: Previous Lesson](../day-25/README.md) | [Home](../../README.md) | [Day 27: Next Lesson →](../day-27/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -178,7 +178,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 25: Previous Lesson](../day-25/README.md) | [🏠 Home](../../README.md) | [Day 27: Next Lesson →](../day-27/README.md) |
+| [← Day 25: Previous Lesson](../day-25/README.md) | [Home](../../README.md) | [Day 27: Next Lesson →](../day-27/README.md) |
 |:---|:---:|---:|
 
 </div>

@@ -1,8 +1,8 @@
-# Day 22 🧙 - Dunder Methods
+# <img src="../../assets/icons/day-22.svg" width="34" height="34" align="absmiddle" alt=""> Day 22 - Dunder Methods
 
 <div align="center">
 
-| [← Day 21: Previous Lesson](../day-21/README.md) | [🏠 Home](../../README.md) | [Day 23: Next Lesson →](../day-23/README.md) |
+| [← Day 21: Previous Lesson](../day-21/README.md) | [Home](../../README.md) | [Day 23: Next Lesson →](../day-23/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -210,7 +210,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 21: Previous Lesson](../day-21/README.md) | [🏠 Home](../../README.md) | [Day 23: Next Lesson →](../day-23/README.md) |
+| [← Day 21: Previous Lesson](../day-21/README.md) | [Home](../../README.md) | [Day 23: Next Lesson →](../day-23/README.md) |
 |:---|:---:|---:|
 
 </div>

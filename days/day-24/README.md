@@ -1,8 +1,8 @@
-# Day 24 ♾️ - Generators & Iterators
+# <img src="../../assets/icons/day-24.svg" width="34" height="34" align="absmiddle" alt=""> Day 24 - Generators & Iterators
 
 <div align="center">
 
-| [← Day 23: Previous Lesson](../day-23/README.md) | [🏠 Home](../../README.md) | [Day 25: Next Lesson →](../day-25/README.md) |
+| [← Day 23: Previous Lesson](../day-23/README.md) | [Home](../../README.md) | [Day 25: Next Lesson →](../day-25/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -201,7 +201,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 23: Previous Lesson](../day-23/README.md) | [🏠 Home](../../README.md) | [Day 25: Next Lesson →](../day-25/README.md) |
+| [← Day 23: Previous Lesson](../day-23/README.md) | [Home](../../README.md) | [Day 25: Next Lesson →](../day-25/README.md) |
 |:---|:---:|---:|
 
 </div>

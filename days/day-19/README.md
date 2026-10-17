@@ -1,8 +1,8 @@
-# Day 19 📦 - Modules & Packages
+# <img src="../../assets/icons/day-19.svg" width="34" height="34" align="absmiddle" alt=""> Day 19 - Modules & Packages
 
 <div align="center">
 
-| [← Day 18: Previous Lesson](../day-18/README.md) | [🏠 Home](../../README.md) | [Day 20: Next Lesson →](../day-20/README.md) |
+| [← Day 18: Previous Lesson](../day-18/README.md) | [Home](../../README.md) | [Day 20: Next Lesson →](../day-20/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -205,7 +205,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 18: Previous Lesson](../day-18/README.md) | [🏠 Home](../../README.md) | [Day 20: Next Lesson →](../day-20/README.md) |
+| [← Day 18: Previous Lesson](../day-18/README.md) | [Home](../../README.md) | [Day 20: Next Lesson →](../day-20/README.md) |
 |:---|:---:|---:|
 
 </div>

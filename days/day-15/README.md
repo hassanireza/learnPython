@@ -1,8 +1,8 @@
-# Day 15 🛡️ - Error Handling
+# <img src="../../assets/icons/day-15.svg" width="34" height="34" align="absmiddle" alt=""> Day 15 - Error Handling
 
 <div align="center">
 
-| [← Day 14: Previous Lesson](../day-14/README.md) | [🏠 Home](../../README.md) | [Day 16: Next Lesson →](../day-16/README.md) |
+| [← Day 14: Previous Lesson](../day-14/README.md) | [Home](../../README.md) | [Day 16: Next Lesson →](../day-16/README.md) |
 |:---|:---:|---:|
 
 </div>
@@ -209,7 +209,7 @@ Before moving on, make sure you can explain each concept without looking at the 
 
 <div align="center">
 
-| [← Day 14: Previous Lesson](../day-14/README.md) | [🏠 Home](../../README.md) | [Day 16: Next Lesson →](../day-16/README.md) |
+| [← Day 14: Previous Lesson](../day-14/README.md) | [Home](../../README.md) | [Day 16: Next Lesson →](../day-16/README.md) |
 |:---|:---:|---:|
 
 </div>
